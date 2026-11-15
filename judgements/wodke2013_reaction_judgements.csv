@@ -1,0 +1,307 @@
+﻿ID,ReactionID,Name,GeneAssociation,KEGG,source_type,uniqueness,rule
+WOD-R001,RR00685_meta,D-Glyceraldehyde-3-phosphate:NAD+ oxidoreductase(phosphoryla,MPN430,R01061,own_species-explicit,identified,R-KEGG-GENE
+WOD-R002,_966fc3cb_8dea_475c_be2c_a613a97ac673,SINK: L-Threonine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R003,_27e207f1_fab5_4b44_a573_e93dd33fdd2e,SINK: L-Leucine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R004,RR01850_meta,L-Xylose 5-phosphate 3-epimerase,MPN492,R03244,own_species-explicit,identified,R-KEGG-GENE
+WOD-R005,_3da3a8dc_d14f_449c_b517_3381f4605466,SINK: L-Arginine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R006,RR04369_meta,TRDR,MPN240,R02016,own_species-explicit,identified,R-KEGG-GENE
+WOD-R007,_310cb5df_ab3a_49a6_a438_9cefbba184bd,SINK: L-Cysteine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R008,RR03512_meta,AMP:pyrophosphate phosphoribosyltransferase,MPN395,R00190,own_species-explicit,identified,R-KEGG-GENE
+WOD-R009,RR00521_meta,sn-Glycerol-3-phosphate:oxygen 2-oxidoreductase,MPN051,R00846,own_species-explicit,identified,R-KEGG-GENE
+WOD-R010,RR01147_meta,ATP:dGMP phosphotransferase,MPN246,R02090,own_species-explicit,identified,R-KEGG-GENE
+WOD-R011,RR00598_meta,"5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransfer",MPN576,R00945,own_species-explicit,identified,R-KEGG-GENE
+WOD-R012,RR03709_meta,Adenosine:orthophosphate ribosyltransferase,MPN062,R01561,own_species-explicit,identified,R-KEGG-GENE
+WOD-R013,RR01475_meta,Deoxyadenosine:orthophosphate ribosyltransferase,MPN062,R02557,own_species-explicit,identified,R-KEGG-GENE
+WOD-R014,RR01018_meta,Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphateglycer,,R08575,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R015,RR09769_meta,ascorbate hydrolase,MPN497,R07677,own_species-explicit,identified,R-KEGG-GENE
+WOD-R016,_46b7e21a_eb5c_47bc_9fa9_22810fa61d20,SINK: Adenine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R017,RR01592_meta,"2-Deoxy-D-ribose 1-phosphate 1,5-phosphomutase",MPN066,R02749,own_species-explicit,identified,R-KEGG-GENE
+WOD-R018,_3f3cf4ec_de24_406a_8cf9_6178d98a0bfd,ADEt2r,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R019,RR00667_meta,Glycerol:NAD+ oxidoreductase,MPN564,R01041,own_species-explicit,identified,R-KEGG-GENE
+WOD-R020,RR09796_meta,dGTP:3-phospho-D-glycerate 1-phosphotransferase,MPN429,R01517,own_species-explicit,identified,R-KEGG-GENE
+WOD-R021,RR00690_meta,"D-Fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lya",MPN025,R01068,own_species-explicit,identified,R-KEGG-GENE
+WOD-R022,RR03544_meta,Acetaldehyde:NAD+ oxidoreductase (CoA-acetylating),MPN564,R00228,own_species-explicit,identified,R-KEGG-GENE
+WOD-R023,_7eb8582a_4946_4eaf_8936_59d78a6f25cc,SINK: L-Glutamate[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R024,_10966361_3873_4f5f_b555_39f8d8331a11,glycerol transport via channel,MPN043,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R025,RR00779_meta,GMP:pyrophosphate phosphoribosyltransferase,MPN672,R01229,own_species-explicit,identified,R-KEGG-GENE
+WOD-R026,RR01146_meta,ATP:deoxyadenosine 5&apos;-phosphotransferase,MPN386,R02089,own_species-explicit,identified,R-KEGG-GENE
+WOD-R027,RR03808_meta,ATP:deoxyguanosine 5&apos;-phosphotransferase,MPN386,R01967,own_species-explicit,identified,R-KEGG-GENE
+WOD-R028,c260aad3_45c7_4193_a69f_5319ba4e2e9f,CHLt2r,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R029,_93930216_f300_4e4f_b35d_8d149af7442e,FAtransp,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R030,_6da12d09_147a_4838_8a9e_89a788c1de2c,SINK: L-Aspartate[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R031,_8c00ab73_98d2_4964_b4bb_82f9670f26e6,arginine/ornithine antiporter,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R032,RR00452_meta,D-Mannitol-1-phosphate:NAD+ 5-oxidoreductase,MPN652,R00758,own_species-explicit,identified,R-KEGG-GENE
+WOD-R033,RR00902_meta,"5,10-Methenyltetrahydrofolate 5-hydrolase(decyclizing)",MPN017,R01655,own_species-explicit,identified,R-KEGG-GENE
+WOD-R034,RR03810_meta,Deoxyguanosine:orthophosphate ribosyltransferase,MPN062,R01969,own_species-explicit,identified,R-KEGG-GENE
+WOD-R035,ccb347ef_9d92_48d1_8c5b_ae500106b55e,SINK: L-Lysine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R036,RR00106_meta,ATP:carbamate phosphotransferase,MPN307,R00150,own_species-explicit,identified,R-KEGG-GENE
+WOD-R037,RR01184_meta,Guanosine:orthophosphate ribosyltransferase,MPN062,R02147,own_species-explicit,identified,R-KEGG-GENE
+WOD-R038,RR00275_meta,Formate:NAD+ oxidoreductase,,R11519,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R039,RR00157_meta,ATP:acetate phosphotransferase,MPN533,R00315,own_species-explicit,identified,R-KEGG-GENE
+WOD-R040,fa8eee8c_d6f9_4e2e_9dad_7fb7960d96d5,SINK: L-Asparagine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R041,RR09857_meta,phosphatidylcholine avylhydrolase (Mpn),MPN445,R01309,own_species-explicit,identified,R-KEGG-GENE
+WOD-R042,RR03873_meta,ATP:nicotinamide-nucleotide adenylyltransferase,MPN336,R03005,own_species-explicit,identified,R-KEGG-GENE
+WOD-R043,RR03769_meta,Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphateglycol,MPN082,R01641,own_species-explicit,identified,R-KEGG-GENE
+WOD-R044,RR03681_meta,"2-Phospho-D-glycerate 2,3-phosphomutase",MPN628,R01518,own_species-explicit,identified,R-KEGG-GENE
+WOD-R045,RR00689_meta,transketolase,MPN082,R01067,own_species-explicit,identified,R-KEGG-GENE
+WOD-R046,c4a1d603_f5c4_4a57_bcf6_54792bd34906,SINK: L-Alanine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R047,af5658ba_d040_45d4_8c09_129e7d46ca2e,SINK: CO2[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R048,_8e107f32_b64c_43e4_b50f_54b78f50b0fa,SINK: L-Isoleucine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R049,RR01151_meta,ATP:dTMP phosphotransferase,MPN006,R02094,own_species-explicit,identified,R-KEGG-GENE
+WOD-R050,RR01158_meta,"5,10-Methylenetetrahydrofolate:dUMP C-methyltransferase",MPN320,R02101,own_species-explicit,identified,R-KEGG-GENE
+WOD-R051,_08bbe2f2_f1fe_45e5_947b_95aa58fa1749,SINK: Glycine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R052,RR00910_meta,ATP:dCMP phosphotransferase,MPN476,R01665,own_species-explicit,identified,R-KEGG-GENE
+WOD-R053,RR08593_meta,ATP synthase (four protons for one ATP),MPN597 and MPN598 and MPN599 and MPN600 ,R00086,own_species-explicit,identified,R-KEGG-GENE
+WOD-R054,RR01236_meta,Dihydrofolate:NAD+ oxidoreductase,MPN321 or MPN300,R02235,own_species-explicit,identified,R-KEGG-GENE
+WOD-R055,d460b66d_b6ca_4491_9060_9aeed966a5b7,"cytidine transport in via proton symport, reversible",,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R056,RR00771_meta,"5,10-Methylenetetrahydrofolate:NADP+ oxidoreductase",MPN017,R01220,own_species-explicit,identified,R-KEGG-GENE
+WOD-R057,RR09795_meta,dATP:3-phospho-D-glycerate 1-phosphotransferase,MPN429,R01512,own_species-explicit,identified,R-KEGG-GENE
+WOD-R058,RR00682_meta,"D-Ribose 1,5-phosphomutase",MPN066,R01057,own_species-explicit,identified,R-KEGG-GENE
+WOD-R059,cf0ccb07_15b9_43c9_9f61_a7015615a296,CO2 transporter via diffusion,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R060,_9442bf8c_7fe3_45ce_b56a_7bce066e6beb,SINK: L-Tryptophan[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R061,RR03649_meta,Carbamoyl-phosphate:L-ornithine carbamoyltransferase,MPN306,R01398,own_species-explicit,identified,R-KEGG-GENE
+WOD-R062,_955ff851_d12b_4a7f_98ca_b87da690ec69,H2O2t,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R063,RR03195_meta,L-ribulose-5-phosphate 4-epimerase,MPN498,R05850,own_species-explicit,identified,R-KEGG-GENE
+WOD-R064,_032dc06d_f14e_4dd6_bfda_2827a050f232,SINK: L-Methionine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R065,RR01155_meta,ATP:dUMP phosphotransferase,MPN006,R02098,own_species-explicit,identified,R-KEGG-GENE
+WOD-R066,_5ab24282_49da_4ed7_acde_9308df3cc10a,SOURCE: H+[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R067,RR08879_meta,adenylate kinase,MPN185,R00127,own_species-explicit,identified,R-KEGG-GENE
+WOD-R068,aa7bc366_4378_405f_a698_f731d47d8ea2,O2t,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R069,RR00147_meta,UDPglucose 4-epimerase,MPN257,R00291,own_species-explicit,identified,R-KEGG-GENE
+WOD-R070,RR00662_meta,sn-Glycero-3-phosphocholine glycerophosphohydrolase,MPN420,R01030,own_species-explicit,identified,R-KEGG-GENE
+WOD-R071,RR03675_meta,ATP:3-phospho-D-glycerate 1-phosphotransferase,MPN429,R01512,own_species-explicit,identified,R-KEGG-GENE
+WOD-R072,RR00590_meta,"5,6,7,8-Tetrahydrofolate:NAD+ oxidoreductase",MPN321 or MPN300,R00936,own_species-explicit,identified,R-KEGG-GENE
+WOD-R073,RR00465_meta,D-Mannose-6-phosphate ketol-isomerase,,R01819,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R074,RR00268_meta,ATP:CMP phosphotransferase,MPN476,R00512,own_species-explicit,identified,R-KEGG-GENE
+WOD-R075,RR03698_meta,ATP:dAMP phosphotransferase,MPN185,R01547,own_species-explicit,identified,R-KEGG-GENE
+WOD-R076,RR08939_meta,phosphoglucomutase,MPN066,R00959,own_species-explicit,identified,R-KEGG-GENE
+WOD-R077,RR03717_meta,Thymidine:orthophosphate deoxyribosyltransferase,MPN064,R01570,own_species-explicit,identified,R-KEGG-GENE
+WOD-R078,RR03680_meta,GTP:3-phospho-D-glycerate 1-phosphotransferase,MPN429,R01517,own_species-explicit,identified,R-KEGG-GENE
+WOD-R079,RR01416_meta,Deoxyuridine:orthophosphate ribosyltransferase,MPN064,R02484,own_species-explicit,identified,R-KEGG-GENE
+WOD-R080,_92b7c00c_42c1_402d_9678_b171225225cd,SINK: L-Serine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R081,RR01052_meta,Uridine:orthophosphate ribosyltransferase,MPN064,R01876,own_species-explicit,identified,R-KEGG-GENE
+WOD-R082,RR00404_meta,(S)-Lactate:NAD+ oxidoreductase,MPN674,R00703,own_species-explicit,identified,R-KEGG-GENE
+WOD-R083,_9c70afc5_7bd9_4241_ba34_736f0bcc483f,SOURCE: Fatty Acid (Mpn) [e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R084,_0a2b702f_252b_4df9_a744_c28450a56fb2,SOURCE: Water[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R085,b12d047a_6b1e_4a74_9e83_46d463f00b0c,H2O transport via diffusion,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R086,_0324f60a_169a_41a5_b1b2_62f6e249837d,SINK: L-Histidine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R087,e2a6b3ab_e53e_44b2_9ede_7017c4904e28,SINK: L-Valine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R088,_8ec77048_2fdb_4bbe_845f_f751f2eba23a,SINK: L-Glutamine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R089,RR09889_meta,NADH oxidase (H2O-forming),MPN394,R00281,own_species-explicit,identified,R-KEGG-GENE
+WOD-R090,RR00617_meta,UMP:pyrophosphate phosphoribosyltransferase,MPN033,R00966,own_species-explicit,identified,R-KEGG-GENE
+WOD-R091,RR00464_meta,D-Glucose-6-phosphate ketol-isomerase,MPN250,R02740,own_species-explicit,identified,R-KEGG-GENE
+WOD-R092,_02eb7b7f_cdd0_4009_ada8_56567bc5f979,SINK: Orthophosphate[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R093,RR00952_meta,Nicotinate D-ribonucleotide:pyrophosphate phosphoribosyltran,MPN047,R01724,own_species-explicit,identified,R-KEGG-GENE
+WOD-R094,_73bd620c_fd9c_42f5_a172_d50c1e3644ef,SINK: L-Tyrosine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R095,f967053d_ccee_43ea_900e_b0887d763ffd,SINK: L-Phenylalanine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R096,RR03546_meta,Acetyl-CoA:orthophosphate acetyltransferase,MPN428,R00230,own_species-explicit,identified,R-KEGG-GENE
+WOD-R097,_6a6778de_e2db_4a20_9deb_e6d4af8611e5,SINK: NH3[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R098,RR00146_meta,UTP:alpha-D-glucose-1-phosphate uridylyltransferase,MPN667,R00289,own_species-explicit,identified,R-KEGG-GENE
+WOD-R099,RR09342_meta,"2-oxoglutarate dehydrogenase, lipoamidedehydrogenase compone",MPN390,R01698,own_species-explicit,identified,R-KEGG-GENE
+WOD-R100,RR00111_meta,ATP:UMP phosphotransferase,MPN632,R00158,own_species-explicit,identified,R-KEGG-GENE
+WOD-R101,RR00681_meta,D-Ribose-5-phosphate ketol-isomerase,MPN595,R01056,own_species-explicit,identified,R-KEGG-GENE
+WOD-R102,RR00362_meta,2-Phospho-D-glycerate hydro-lyase,MPN606,R00658,own_species-explicit,identified,R-KEGG-GENE
+WOD-R103,d8a98a75_b408_4ac3_ad6d_d9a5021588e8,URAt2r,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R104,RR00652_meta,D-Glyceraldehyde-3-phosphate ketol-isomerase,MPN629,R01015,own_species-explicit,identified,R-KEGG-GENE
+WOD-R105,RR03691_meta,D-Ribulose-5-phosphate 3-epimerase,MPN251,R01529,own_species-explicit,identified,R-KEGG-GENE
+WOD-R106,_5e3592d7_1308_4dbc_b33d_13c3bcb5c96a,SINK: Biomass[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R107,_0d94ddd9_c18c_4c67_b57c_0478bc2e139a,SINK: L-Proline[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R108,RR01487_meta,Acetyl-CoA:dihydrolipoamide S-acetyltransferase,MPN391,R02569,own_species-explicit,identified,R-KEGG-GENE
+WOD-R109,_8b7ef8d2_c611_4399_9e9c_7d2e660885cf,SINK: Choline[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R110,RR00171_meta,ATP:GMP phosphotransferase,MPN246,R00332,own_species-explicit,identified,R-KEGG-GENE
+WOD-R111,_07c03177_6f94_4338_8b3d_3233a1cb7e65,NH3 export,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R112,IR09820_meta,acyl-ACP synthase (Mpn),,R01406,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R113,_01e9b817_c4e9_492e_8458_e8fcb020bb0c,CYSabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R114,IR03514_meta,S-Adenosyl-L-homocysteine hydrolase,,R00192,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R115,d5400324_9a34_45cb_b021_073dc8863d0b,L-histidine reversible transport via proton symport (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R116,IR00522_meta,ATP:glycerol 3-phosphotransferase,MPN050,R00847,own_species-explicit,identified,R-KEGG-GENE
+WOD-R117,IR09822_meta,1-acyl-sn-glycerol-3-phosphate acyltransferase,MPN299,R02241,own_species-explicit,identified,R-KEGG-GENE
+WOD-R118,fc0eda7b_3a75_4413_a9d0_e2d3b1440246,SOURCE: Pyridoxal[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R119,aeea559d_bb88_44b2_b41a_6055bdb5abda,folate transporter,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R120,IR07938_meta,GTP:pyruvate O2-phosphotransferase (R),MPN303,R00430,own_species-explicit,identified,R-KEGG-GENE
+WOD-R121,_798da59b_171a_4a1e_a0fd_2c697c4089bb,ILEt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R122,_08d7c5e9_e0a5_4a62_8601_d70912b149c6,ASPt2 (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R123,IR09910_meta,Asparaginyl-tRNA synthetase,MPN252,R03648,own_species-explicit,identified,R-KEGG-GENE
+WOD-R124,IR09934_meta,apoACP synthesis,,,fit_set,one-of-many,R-BIOMASS-MECH
+WOD-R125,e2583455_5873_4ca2_8601_79dbdb1e53b3,PHEt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R126,IR09898_meta,Leucyl-tRNA synthetase,MPN384,R03656,own_species-explicit,identified,R-KEGG-GENE
+WOD-R127,_923cb189_fa66_4638_8574_14560ff7d64c,SOURCE: Cytidine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R128,_5f085990_b07d_4607_ac42_7d95a5e90cc7,L-Serine transport via ABC System,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R129,_97d5c10f_eeb3_485a_bcf2_3ad9a30b4b16,ASPabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R130,_4914440a_c3f5_444b_aa86_a792eabe7f1b,SOURCE: (L)-Ascorbate[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R131,IR07898_meta,ATP:pyruvate O2-phosphotransferase (R),MPN303,R00200,own_species-explicit,identified,R-KEGG-GENE
+WOD-R132,a405796d_ddc3_4ded_8a59_ad75c21cf75a,"SINK: Adenosine 3&apos;,5&apos;-bisphosphate[i]",,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R133,IR09956_meta,DnaK catalyzed protein folding (Mpn),MPN434 and MPN002 and MPN120,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R134,IR08910_meta,fructose-1-phosphate kinase,MPN079,R02071,own_species-explicit,identified,R-KEGG-GENE
+WOD-R135,IR04342_meta,RNDR4,MPN322 and MPN323 and MPN324,R02018,own_species-explicit,identified,R-KEGG-GENE
+WOD-R136,IR03894_meta,ATP:pantetheine-4&apos;-phosphate adenylyltransferase,MPN336,R03035,own_species-explicit,identified,R-KEGG-GENE
+WOD-R137,IR04690_meta,CTP:pyruvate O2-phosphotransferase (R),MPN303,R00572,own_species-explicit,identified,R-KEGG-GENE
+WOD-R138,IR03497_meta,ATP:pyridoxal 5&apos;-phosphotransferase,,R00174,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R139,IR09829_meta,cardiolipin synthase (Mpn),,R02030,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R140,IR04340_meta,RNDR1,MPN322 and MPN323 and MPN324,R02017,own_species-explicit,identified,R-KEGG-GENE
+WOD-R141,dd485f26_3c9c_47b7_8a46_66558f7a62fc,EX_pi(e),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R142,IR00932_meta,Pyruvate:lipoamide 2-oxidoreductase(decarboxylating andaccep,MPN392 and MPN393,R01699,own_species-explicit,identified,R-KEGG-GENE
+WOD-R143,IR09954_meta,protein degradation (Mpn),,,fit_set,one-of-many,R-BIOMASS-MECH
+WOD-R144,_3edbe0d8_3c0e_48a6_81a6_704c22347580,PROt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R145,_908b4c7b_efe8_40fa_9316_c252d4c55d36,SOURCE: Guanine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R146,a36670bf_31f3_4406_8e17_c7d4d483262a,L-lysine transport via ABC system,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R147,_1c2f09f8_8669_4c7e_af1b_c8df53b131c9,GLUt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R148,_2e152f55_55c6_4bc1_9bad_8f7df2acbbf4,L-asparagine reversible transport via proton symport (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R149,_45c3f930_b012_4375_9630_e2376bcd649b,SOURCE: D-Ribose[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R150,IR09906_meta,Lysyl-tRNA synthetase,MPN277,R03658,own_species-explicit,identified,R-KEGG-GENE
+WOD-R151,fad9e8ce_de6b_449a_966b_62148d8e282d,SOURCE: Folic Acid[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R152,IR08786_meta,MANpts,MPN078,R02630,own_species-explicit,identified,R-KEGG-GENE
+WOD-R153,IR03510_meta,"Adenosine 3&apos;,5&apos;-bisphosphate 3&apos;(2&apos;)-phos",,R00188,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R154,IR00114_meta,ATP:FMN adenylyltransferase,MPN158,R00161,own_species-explicit,identified,R-KEGG-GENE
+WOD-R155,IR09895_meta,Tyrosyl-tRNA synthetase,MPN669,R02918,own_species-explicit,identified,R-KEGG-GENE
+WOD-R156,aaa71450_c50e_4c14_bd98_baca6e75bdf5,SOURCE: Thiamine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R157,_519463e6_ef05_4961_8ea6_42a8c6f2c02a,DCYTt2,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R158,_39d5f0d2_0166_4564_b917_11d0a84af1e0,glycine reversible transport via proton symport (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R159,IR00649_meta,ATP:glycerone phosphotransferase,MPN547,R01011,own_species-explicit,identified,R-KEGG-GENE
+WOD-R160,a1a5b4d6_acc8_4e9a_bfd8_3a41b324a1d4,L-histidine transport via ABC system,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R161,IR09905_meta,Isoleucyl-tRNA synthetase,MPN520,R03656,own_species-explicit,identified,R-KEGG-GENE
+WOD-R162,_9eafeca6_f768_40aa_8d00_f603a4ef5303,Ascorbate PTS,MPN494 and MPN495 and MPN496,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R163,IR08829_meta,D-fructose transport via PEP:Pyr PTS,MPN078,R03076,own_species-explicit,identified,R-KEGG-GENE
+WOD-R164,IR09863_meta,DNA methylierung (Mpn),MPN108,R04858,own_species-explicit,identified,R-KEGG-GENE
+WOD-R165,IR00648_meta,Glycerone phosphate phosphohydrolase (alkaline optimum),,R01010,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R166,IR09847_meta,ACP phosphodiesterase,MPN479,R01623,own_species-explicit,identified,R-KEGG-GENE
+WOD-R167,IR09884_meta,RNA synthesis (Mpn),MPN516,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R168,_534b68cb_a92a_4824_a4b3_0595a56ce417,Phosphatidylcholine ABC transporter (Mpn),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R169,fe7ea7e5_bc15_4ef0_a467_bd9137c6c4f0,THRabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R170,_6b63e5b5_b47b_49f8_94b6_55d5d9b693ad,TYRabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R171,IR00656_meta,ATP:choline phosphotransferase,MPN532,R01021,own_species-explicit,identified,R-KEGG-GENE
+WOD-R172,IR09899_meta,Glycyl-tRNA synthetase,MPN354,R03654,own_species-explicit,identified,R-KEGG-GENE
+WOD-R173,IR09902_meta,Valyl-tRNA synthetase,MPN480,R03665,own_species-explicit,identified,R-KEGG-GENE
+WOD-R174,IR09871_meta,glycolipid synthesis (Mpn),MPN483,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R175,_94c9d305_4dba_471c_8898_a8dbdfa51c54,Lactate export (Mpn),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R176,baa508a9_b085_4895_89a2_1d175a38ad44,TRPabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R177,IR09891_meta,Alanyl-tRNA synthetase,MPN418,R03038,own_species-explicit,identified,R-KEGG-GENE
+WOD-R178,_6ff4ec21_d177_4ee7_a92b_9db6fda29420,L-tryptophan reversible transport via proton symport (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R179,IR00911_meta,ATP:deoxycitidine 5&apos;-phosphotransferase,MPN386,R01666,own_species-explicit,identified,R-KEGG-GENE
+WOD-R180,bae63f60_9773_49a5_8ec2_591fe54394ed,homocysteine export (Mpn),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R181,a47f5c65_240e_403d_9d16_6107ae635ee6,SOURCE: Glucose[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R182,IR09913_meta,glutaminyl-tRNA synthetase (Glu),MPN236 and MPN237 and MPN238,R03905,own_species-explicit,identified,R-KEGG-GENE
+WOD-R183,IR09893_meta,Methionyl-tRNA synthetase,MPN023,R03659,own_species-explicit,identified,R-KEGG-GENE
+WOD-R184,IR04284_meta,Glutamyl-tRNA synthetase,MPN678,R05578,own_species-explicit,identified,R-KEGG-GENE
+WOD-R185,_964434ef_b07d_46a0_b5df_743d975bc059,atp consumption proxy,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R186,IR00674_meta,ATP:D-ribose-5-phosphate pyrophosphotransferase,MPN073,R01049,own_species-explicit,identified,R-KEGG-GENE
+WOD-R187,dd8fd376_4dc2_4327_b29e_08863f23ab58,LEUabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R188,_0f6b299f_2310_4c6e_a3ee_e36ad3472e44,L-asparagine transport via ABC system,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R189,IR09827_meta,phosphatidylglycerophosphate synthase,MPN253,R01801,own_species-explicit,identified,R-KEGG-GENE
+WOD-R190,e98454a9_3c55_47c4_ba9f_e6171fe017c9,phosphate transport via ABC system,MPN609 and MPN610 and MPN611,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R191,IR00596_meta,Formate:tetrahydrofolate ligase (ADP-forming),MPN017,R00943,own_species-explicit,identified,R-KEGG-GENE
+WOD-R192,_57fd1bd7_d103_4c27_b157_0317201c5f02,ALAt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R193,IR09961_meta,GroEL catalyzed protein folding (Mpn),MPN573 and MPN574,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R194,e5d652bc_b2d1_427d_85e1_03c06322bd32,L-glutamine transport via ABC system,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R195,IR09821_meta,glycerol-3-phosphate O-acyltransferase (Mpn),MPN350 and MPN546,R00851,own_species-explicit,identified,R-KEGG-GENE
+WOD-R196,fd9f3676_a713_48b5_b3d2_eb6e20097199,GLNt2 (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R197,_3857fd6a_d5f8_4aea_8142_2093e106e0ba,SOURCE: Uracil[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R198,IR08208_meta,S-Aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolateamino,MPN576,R01655,own_species-explicit,identified,R-KEGG-GENE
+WOD-R199,ec7d8ae8_03b5_40e4_8be8_d186d06e81a8,SOURCE: Oxygen[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R200,IR09792_meta,pyruvate kinase 3,MPN303,R02320,own_species-explicit,identified,R-KEGG-GENE
+WOD-R201,IR01710_meta,ATP:pantothenate 4&apos;-phosphotransferase,,R02971,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R202,IR03511_meta,Deamino-NAD+:ammonia ligase (AMP-forming),MPN562,R00189,own_species-explicit,identified,R-KEGG-GENE
+WOD-R203,IR09908_meta,Phenylalanyl-tRNA synthetase,MPN105 and MPN106,R03660,own_species-explicit,identified,R-KEGG-GENE
+WOD-R204,IR05416_meta,dGTP:pyruvate O2-phosphotransferase (R),MPN303,R01858,own_species-explicit,identified,R-KEGG-GENE
+WOD-R205,_67047f32_3cce_406f_820c_2362e833f61a,SINK: NADP+[i],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R206,IR01054_meta,Cytidine aminohydrolase,MPN065,R01878,own_species-explicit,identified,R-KEGG-GENE
+WOD-R207,_05ab1f09_445c_46ef_be90_ec08eb8a02f3,riboflavin transporter,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R208,IR09824_meta,phosphatidate phosphatase,MPN455,R02239,own_species-explicit,identified,R-KEGG-GENE
+WOD-R209,dd5c49a4_cbdb_471e_9c0b_84a1cb83850d,CYSt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R210,IR04341_meta,RNDR2,MPN322 and MPN323 and MPN324,R02019,own_species-explicit,identified,R-KEGG-GENE
+WOD-R211,_0fe91fa6_b0a8_4353_9a8c_62e681fa14fb,pantetheine transporter,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R212,IR08826_meta,MNLpts,MPN651 and MPN653,R02704,own_species-explicit,identified,R-KEGG-GENE
+WOD-R213,_93521251_93d5_48a4_959a_f8814331b6c5,SERt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R214,_54cc86af_9bbc_4d7e_9ac5_00e0bda10121,SOURCE: Riboflavin[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R215,IR07876_meta,ATP:L-methione S-adenosyltransferase (R),MPN060,R00177,own_species-explicit,identified,R-KEGG-GENE
+WOD-R216,f9705d97_e449_4349_aca8_6d2044dc7aba,Nicotinic acid uptake,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R217,_3c419da5_0fdc_4951_adb2_16eade223ece,SOURCE: Glycerol[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R218,a3ea50e4_58be_4f6a_90b6_cff65a98a02d,SINK: L-homocysteine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R219,IR00074_meta,ATP:NAD+ 2&apos;-phosphotransferase,MPN267,R00104,own_species-explicit,identified,R-KEGG-GENE
+WOD-R220,IR04740_meta,UTP:pyruvate O2-phosphotransferase (R),MPN303,R00659,own_species-explicit,identified,R-KEGG-GENE
+WOD-R221,_955972f8_3582_4a1f_9a8c_2d1abade80e2,doubling energy mpn,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R222,IR00676_meta,ATP:D-ribose 5-phosphotransferase,,R01051,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R223,_429ba183_5f28_45cb_8c49_944e543efe08,SOURCE: Pantetheine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R224,abce8e0c_467a_4286_bbb0_79288224c85d,SOURCE: Mannitol[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R225,_39e70c28_4aea_4a4c_b97d_18105ddb8047,PHEabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R226,_19a2b626_2306_4a4d_b832_443bd47ad1e7,L-alanine transport via ABC system,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R227,IR09828_meta,phosphatidylglycerophosphatase,,R02029,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R228,IR09911_meta,Glutamyl-tRNA synthetase (GlntRNA),MPN678,R03651,own_species-explicit,identified,R-KEGG-GENE
+WOD-R229,_435151d3_4681_4111_b129_37b62eabf0e1,ILEabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R230,_19034f3b_6c3c_4136_a148_2a37a276b9d8,L-methionine transport via ABC system,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R231,IR00341_meta,ATP:thiamin-phosphate phosphotransferase,MPN550,R00617,own_species-explicit,identified,R-KEGG-GENE
+WOD-R232,_9ef4dc00_9f22_415c_bac3_a5797cd76065,SOURCE: Thymine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R233,IR00615_meta,ATP:uridine 5&apos;-phosphotransferase,MPN561,R00964,own_species-explicit,identified,R-KEGG-GENE
+WOD-R234,IR09885_meta,RNA degradation (Mpn),,,fit_set,one-of-many,R-BIOMASS-MECH
+WOD-R235,IR09907_meta,Seryl-tRNA synthetase,MPN005,R03662,own_species-explicit,identified,R-KEGG-GENE
+WOD-R236,IR03716_meta,Thymidylate 5&apos;-phosphohydrolase,,R01569,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R237,_19de00d3_5960_47d9_bb90_d25f5003ee58,SOURCE: sn-Glycerol 3-phosphate[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R238,_9e472700_616c_4b65_af2c_5e2bc0883e93,SOURCE: D-Mannose[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R239,IR09909_meta,Protein synthesis  (Mpn),,,fit_set,one-of-many,R-BIOMASS-MECH
+WOD-R240,IR01174_meta,ATP:thiamine phosphotransferase,,R02134,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R241,c60ec600_7b09_4567_8e7d_f7863b11973d,GLUabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R242,IR00688_meta,2-Deoxy-D-ribose-5-phosphate acetaldehyde-lyase,MPN063,R01066,own_species-explicit,identified,R-KEGG-GENE
+WOD-R243,IR09861_meta,DNA synthesis (Mpn),MPN034 and MPN378,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R244,IR04343_meta,RNDR3,MPN322 and MPN323 and MPN324,R02024,own_species-explicit,identified,R-KEGG-GENE
+WOD-R245,_6752055f_dece_4fb9_bb95_06f31331c667,SOURCE: Phosphatidylcholine (Mpn),,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R246,IR00293_meta,ATP:riboflavin 5&apos;-phosphotransferase,MPN158,R00549,own_species-explicit,identified,R-KEGG-GENE
+WOD-R247,_3b221f10_e402_4754_892f_57936ec1b8bd,biomass production (Mpn),,,fit_set,one-of-many,R-BIOMASS-MECH
+WOD-R248,bc1ac196_a4cb_4dbe_bb88_e0b83ccf730e,LYSt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R249,_4533845c_735d_4d5e_9f6c_ae7894c44212,VALabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R250,IR09826_meta,phosphatidate cytidylyltransferase,MPN637,R01799,own_species-explicit,identified,R-KEGG-GENE
+WOD-R251,IR09903_meta,Cysteinyl-tRNA synthetase,MPN356,R03650,own_species-explicit,identified,R-KEGG-GENE
+WOD-R252,fa416a0e_1704_4f99_96cf_296e23573241,VALt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R253,_86ba5d8a_eff1_4bd5_8357_8a1411639399,ARGabc,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R254,IR00001_meta,Pyrophosphate phosphohydrolase,MPN528,R00004,own_species-explicit,identified,R-KEGG-GENE
+WOD-R255,IR03714_meta,ATP:thymidine 5&apos;-phosphotransferase,MPN044,R01567,own_species-explicit,identified,R-KEGG-GENE
+WOD-R256,IR09904_meta,Arginyl-tRNA synthetase,MPN556,R03646,own_species-explicit,identified,R-KEGG-GENE
+WOD-R257,a46d85fc_ee74_4823_91a0_f05ba0f0ad05,SINK: Acetate[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R258,IR00909_meta,2&apos;-Deoxycytidine 5&apos;-monophosphate phosphohydrolase,,R01664,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R259,IR08828_meta,GLCpts,MPN627 and MPN207,R02628,own_species-explicit,identified,R-KEGG-GENE
+WOD-R260,IR09912_meta,glutaminyl-tRNA synthetase (Asp),MPN236 and MPN237 and MPN238,R03905,own_species-explicit,identified,R-KEGG-GENE
+WOD-R261,IR09793_meta,pyruvate kinase 4,MPN303,R02320,own_species-explicit,identified,R-KEGG-GENE
+WOD-R262,IR09892_meta,Histidyl-tRNA synthetase,MPN045,R03655,own_species-explicit,identified,R-KEGG-GENE
+WOD-R263,IR01159_meta,dUMP + H2O &gt;=&lt; Deoxyuridine + Orthophosphate,,R07297,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R264,d72fafd8_ca0b_4430_b8d0_78be8e68dd67,GLYC3Pabc,MPN133 and MPN134 and MPN135 and MPN136,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R265,IR00075_meta,ATP:NADH 2&apos;-phosphotransferase,MPN267,R00105,own_species-explicit,identified,R-KEGG-GENE
+WOD-R266,d80e3a35_98bc_4c7b_b45a_578b732d9f6d,glycine transport via ABC system,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R267,_5d7312d0_6ab9_4171_a07d_7f4faab3bfb5,GUAt2,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R268,IR00614_meta,Uridine 5&apos;-monophosphate phosphohydrolase,,R00963,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R269,_5afe837d_f51d_4420_8f0c_4ed631bef7e4,L-tyrosine reversible transport via proton symport (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R270,_0f95398a_bed6_413e_b655_90ff47451514,SINK: 5mcDNA (Mpn),,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R271,IR04278_meta,ACPS1,MPN298,R01625,own_species-explicit,identified,R-KEGG-GENE
+WOD-R272,IR00450_meta,ATP:D-fructose-6-phosphate 1-phosphotransferase,MPN302,R00756,own_species-explicit,identified,R-KEGG-GENE
+WOD-R273,IR09896_meta,Prolyl-tRNA synthetase,MPN402,R03661,own_species-explicit,identified,R-KEGG-GENE
+WOD-R274,_2281cfe4_6878_47fd_ad2d_a0ab32e7db57,ARGt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R275,IR07969_meta,dATP:pyruvate O2-phosphotransferase (R),MPN303,R01138,own_species-explicit,identified,R-KEGG-GENE
+WOD-R276,_272a7da9_c0c6_4f7c_8fec_de949c63a731,SINK: H2O2[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R277,ab8e8a4d_46b2_4e61_9919_197b659efe7b,Thymine t2,,,unattributed,,R-UNSET
+WOD-R278,IR09894_meta,Aspartyl-tRNA synthetase,MPN046,R05577,own_species-explicit,identified,R-KEGG-GENE
+WOD-R279,_32f128e7_38d1_4401_9864_199ec045a18e,SOURCE: dCytidine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R280,dadede37_b7db_4b95_81f4_5a8ec87a21ce,L-leucine reversible transport via proton symport (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R281,_6e01eb97_895f_475f_a0ff_a3283bf20ac1,SINK: (S)-Lactate[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R282,IR00267_meta,Cytidine-5&apos;-monophosphate phosphohydrolase,,R00511,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R283,IR09900_meta,Tryptophanyl-tRNA synthetase,MPN265,R03664,own_species-explicit,identified,R-KEGG-GENE
+WOD-R284,IR00777_meta,Guanosine 5&apos;-monophosphate phosphohydrolase,,R01227,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R285,IR00269_meta,ATP:cytidine 5&apos;-phosphotransferase,MPN561,R00513,own_species-explicit,identified,R-KEGG-GENE
+WOD-R286,_192b2ff5_1216_4d71_912e_db5bb914eed6,thiamine transport via ABC system,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R287,IR04231_meta,3-keto-L-gulonate 6-phosphate decarboxylase,MPN493,R07125,own_species-explicit,identified,R-KEGG-GENE
+WOD-R288,d7661f9a_11f3_45dd_b34a_860ae66d0a87,Acetate export (Mpn),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R289,_1374e45a_6251_481f_aa12_60fc4915f2bc,SOURCE: Nicotinate[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R290,IR03832_meta,5-Formyltetrahydrofolate cyclo-ligase (ADP-forming),MPN348,R02301,own_species-explicit,identified,R-KEGG-GENE
+WOD-R291,IR01064_meta,CTP:choline-phosphate cytidylyltransferase,MPN336,R01890,own_species-explicit,identified,R-KEGG-GENE
+WOD-R292,a7743ba8_bbab_4df6_ae7d_8bd47d5f426c,L-proline transport via ABC system,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R293,_10b62cbf_f1a9_4ce2_bbca_874c2d08169c,SINK: L-Ornithine[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R294,IR09901_meta,Threonyl-tRNA synthetase,MPN553,R03663,own_species-explicit,identified,R-KEGG-GENE
+WOD-R295,_3ea5f46c_4bef_49bc_9a71_fa135db1f3e8,Ribose transporter,MPN258 and MPN259 and MPN260,,own_species-explicit,identified,R-GENE-ONLY
+WOD-R296,_4bfa9bbc_a86a_4adf_b940_1018d2fc64fb,MET2t (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R297,_602a9d47_e9bb_47c4_848f_85ae14292ae5,pyridoxal transporter,,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R298,ced812be_5184_4369_a7ce_42198ff8bcf1,THRt2r (R),,,fit_set,one-of-many,R-TRANSPORT-GAP
+WOD-R299,IR01418_meta,Deoxycytidine aminohydrolase,MPN065,R01878,own_species-explicit,identified,R-KEGG-GENE
+WOD-R300,IR01156_meta,ATP:deoxyuridine 5&apos;-phosphotransferase,MPN044,R02099,own_species-explicit,identified,R-KEGG-GENE
+WOD-R301,IR00094_meta,ATP:dephospho-CoA 3&apos;-phosphotransferase,MPN382,R00130,own_species-explicit,identified,R-KEGG-GENE
+WOD-R302,IR09797_meta,methionyl-tRNA formyltransferase,MPN543,R03940,own_species-explicit,identified,R-KEGG-GENE
+WOD-R303,IR01486_meta,D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase,MPN025,R02568,own_species-explicit,identified,R-KEGG-GENE
+WOD-R304,a6448537_02ab_4e66_86ef_f5c9532267f8,SOURCE: D-Fructose[e],,,fit_set,one-of-many,R-SINKSOURCE
+WOD-R305,IR03505_meta,Adenosine 5&apos;-monophosphate phosphohydrolase,,R00183,fit_set,one-of-many,R-KEGG-NOGENE
+WOD-R306,IR00296_meta,L-Arginine iminohydrolase,(MPN304 and MPN305) or MPN560,R00552,own_species-explicit,identified,R-KEGG-GENE

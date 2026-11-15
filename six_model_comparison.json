@@ -1,0 +1,132 @@
+{
+ "table_id": "six_model_uniqueness_comparison",
+ "produced_at": "2026-11-14 18:46（六模型升级）",
+ "schema_note": "uniqueness 枚举统一为 LEASE_UNIQUENESS 三态+None（schema v1.4）；判定口径四模型同模板（Karr R1-R5 同构）；粒度差异如实标注（逐参数 vs 模型级）；缝隙类目口径注记：Karr 的 non-identified=审计判定不可辨识，ORd 的 None=未声明缺口可见——并排时分开读；五模型升级（2026-11-14）——Wodke 2013 iJW145 判定源=Wodke2013 参数冻结约束清单 JSON reaction_level",
+ "models": [
+  {
+   "model": "Karr 2012 全细胞模型",
+   "scale": "单细胞（M. genitalium 全细胞）",
+   "audit_granularity": "逐参数",
+   "n_judged": 154,
+   "uniqueness_dist": {
+    "identified": 90,
+    "non-identified": 28,
+    "one-of-many": 36
+   },
+   "uniqueness_pct": {
+    "identified": 58.4,
+    "one-of-many": 23.4,
+    "non-identified": 18.2,
+    "None": 0.0
+   },
+   "gap_morphology": "物种错配（实验约束借自他物种，组件自称自身的）",
+   "declaration_strength": "数字化参数表随论文公开（Data S3 全表）"
+  },
+  {
+   "model": "E-Cell 1999 假想细胞",
+   "scale": "单细胞（假想细胞，127 基因）",
+   "audit_granularity": "模型级",
+   "n_judged": 3,
+   "uniqueness_dist": {
+    "identified": 1,
+    "one-of-many": 2
+   },
+   "uniqueness_pct": {
+    "identified": 33.3,
+    "one-of-many": 66.7,
+    "non-identified": 0.0,
+    "None": 0.0
+   },
+   "gap_morphology": "定义消解（参数本质为建模假设，租约在定义层面失效）",
+   "declaration_strength": "正文自认 many are unknown...by estimations"
+  },
+  {
+   "model": "BAAIWorm 2024",
+   "scale": "整体生物体（线虫 302 神经元，9,188 电导参数槽）",
+   "audit_granularity": "模型级按层",
+   "n_judged": 3,
+   "uniqueness_dist": {
+    "identified": 1,
+    "one-of-many": 1,
+    "non-identified": 1
+   },
+   "uniqueness_pct": {
+    "identified": 33.3,
+    "one-of-many": 33.3,
+    "non-identified": 33.3,
+    "None": 0.0
+   },
+   "gap_morphology": "不可辨识性（作者自承 one of the possible solutions）",
+   "declaration_strength": "data-driven 声明居中；结构层实验真实/电导层优化产出/环境层编译固化"
+  },
+  {
+   "model": "O'Hara-Rudy 2011（CiPA 变体）",
+   "scale": "单细胞（人心室肌细胞电生理）",
+   "audit_granularity": "逐参数",
+   "n_judged": 262,
+   "uniqueness_dist": {
+    "identified": 130,
+    "None": 47,
+    "one-of-many": 85
+   },
+   "uniqueness_pct": {
+    "identified": 49.6,
+    "one-of-many": 32.4,
+    "non-identified": 0.0,
+    "None": 17.9
+   },
+   "gap_morphology": "数字化轨迹拟合（从发表图提取再拟合的半手工形态）",
+   "declaration_strength": "逐电流来源段+温度条件+专门新记录（声明强度最高）"
+  },
+  {
+   "model": "Wodke 2013 iJW145（M. pneumoniae）",
+   "scale": "单细胞（M. pneumoniae 能量代谢，306 反应/145 基因）",
+   "audit_granularity": "逐反应",
+   "n_judged": 306,
+   "uniqueness_dist": {
+    "identified": 156,
+    "one-of-many": 150
+   },
+   "gap_morphology": "缺口填充（Missing transport reactions added+拟合约束+可逆性定义）",
+   "declaration_strength": "迭代循环显式声明（预测-假设-实验-精化）+倍增时间预测缺口自承",
+   "uniqueness_pct": {
+    "identified": 51.0,
+    "one-of-many": 49.0,
+    "non-identified": 0.0,
+    "None": 0.0
+   }
+  },
+  {
+   "model": "Gaspari 2020 iEG158_mpn（M. pneumoniae）",
+   "scale": "单细胞（M. pneumoniae 血清无培养基，489 反应）",
+   "audit_granularity": "逐反应",
+   "n_judged": 489,
+   "uniqueness_dist": {
+    "identified": 307,
+    "one-of-many": 179
+   },
+   "uniqueness_pct": {
+    "identified": 62.8,
+    "one-of-many": 36.6,
+    "non-identified": 0.0,
+    "None": 0.6
+   },
+   "gap_morphology": "缺口填充+酶名无 GPR 假设（血清适配扩展 +183 反应中 82.5% 为 GPR 锚定）",
+   "declaration_strength": "代际扩展（iJW145→iEG158 血清适配）+迭代循环显式"
+  }
+ ],
+ "cross_model_readings": [
+  "identified 占比排序（六模型）：Gaspari 62.8% > Karr 58.4% > Wodke 51.0% > ORd 49.6% > E-Cell ≈ BAAIWorm 33.3%——逐条审计四模型高于模型级两模型",
+  "one-of-many 占比（拟合与建模构造依赖度）：E-Cell 66.7% > Wodke 49.0% > Gaspari 36.6% > BAAIWorm 33.3% ≈ ORd 32.4% > Karr 23.4%——五模型分布是模型类型的方法学指纹（constraint-based 建模构造占 Wodke 近半，Gaspari 代际扩展降低构造占比）",
+  "代际维度（Gaspari 新增）：同谱系跨代 Wodke 51.0%→Gaspari 62.8% 上升 11.8pp——新增 183 反应中 82.5% 为 GPR 锚定反应，形态计数不是静态属性随模型版本演进",
+  "余项口径区分保持：Karr non-identified（判定不可辨识）18.2% vs ORd None（未声明）17.9% 语义不同分开读；Wodke 余项 0；Gaspari 余项 3（空名称元数据缺口如实）",
+  "审计粒度定律保持：有公开参数表/标准模型文件者走逐条审计（Karr/ORd/Wodke/Gaspari），编译固化者只能模型级（BAAIWorm 环境层）——粒度本身是缝隙形态的函数",
+  "模型类型外推保持：uniqueness 三态在 FBA 判定单位（反应/约束/基因关联）上原样可判——类型学跨模型类型与跨代有效"
+ ],
+ "data_sources": [
+  "docs/闭合定理审计附件_Karr2012参数冻结约束清单_20261113.csv + 三模型uniqueness打标 JSON",
+  "docs/闭合定理审计附件_ORd2011参数冻结约束清单_20261113.json（param_level）",
+  "constraint_census_v1.json E-Cell/BAAIWorm lease 条目"
+ ],
+ "用途": "书稿第二篇数据（ch06 v1.4 节蒸馏引用）"
+}

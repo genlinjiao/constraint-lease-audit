@@ -1,0 +1,43 @@
+{
+ "hypothesis": "E1 形态计数代际演化的普适性",
+ "statement": "所有活跃维护的已发表模型，其后续版本的 identified 占比单调不降",
+ "verdict": "GATED（判据①版本对≥10 对当前不可满足——数据通道受限非猜想否定）",
+ "gated_at": "2026-11-14 20:48",
+ "criteria_operationalized": {
+  "版本对构成": "同一 BioModels MODEL id 的 history.revisions≥2，下载 v1 与 v2 各跑八形态扫描，Δidentified = v2_pct − v1_pct",
+  "样本要求": "≥10 对（思想站点 E1 判据原文）",
+  "统计": "Δidentified 分布（中位/四分位/负例占比）",
+  "证伪条件": "中位 Δ<0 或显著负例>30%",
+  "判定来源先验": "单例方向支持：Wodke→Gaspari 直接继任对 +11.8pp（62.8%−51.0%，新增 183 反应 82.5% GPR 锚定）"
+ },
+ "blocking_findings": [
+  "①BioModels REST download 端点 version 参数被忽略：v1/v2 下载 md5 完全相同（94eb340e）——历史版本文件不公开（Wodke history.revisions 记录 v1 Original import 2013-01-29/v2 Current 2013-05-20 但 v1 文件不可下载）",
+  "②PMC/Nature 静态资源为文献非模型；BioModels vcsIdentifier=aaa 占位符无 GitHub 镜像；网页 revisions tab 为 SPA JS 渲染不可爬",
+  "③多版本模型数量统计侦察遇 EBI 限流（curl 批量查询全 FAIL——网络通道临时不稳，非端点不存在；BIOMD 策展层 25 样本计划中止）"
+ ],
+ "unlock_paths": [
+  "①联系 BioModels 支持请求历史版本 API（revisions 元数据已在案证明数据存在——只是文件端点未开放）",
+  "②BioModels 网页 UI 人工逐模型下载（成本高，仅优先级最高的模型对值得）",
+  "③直接继任对替代测量：检索 description 含 based on/built upon 的模型对（同谱系继任语义等价，需 ≥10 对）——这是最可行的解锁路径",
+  "④JWS Online 等其他模型库存档侦察"
+ ],
+ "equivocal_support": {
+  "直接继任对 1 例": "Wodke iJW145→Gaspari iEG158_mpn identified 51.0%→62.8%（+11.8pp）——方向与 E1 一致但 n=1 不构成检验"
+ },
+ "sample_scale_prior": "Wodke rev=2 证明 revisions 元数据记录版本数——解锁后样本规模取决于全库 revisions≥2 的模型数（未侦察：EBI 限流），先验预期 curation 层占相当比例",
+ "update_20261114_pm": {
+  "解锁路径②执行结果": "继任对检索成功定位首个天然版本对样本库——Flis2015 植物钟回路族（同论文 5 个版本作 5 个 MODEL id 入库：BIOMD0000000597/0598/MODEL1510190002/3/4，每相邻对=天然版本对，共 4 对+Chen2000→Chen2004 细胞周期经典代际对=5 对候选）",
+  "扫描发现": "7 个 SBML 全部为 ODE 动力学模型（无 GPR/exchange 概念，判定单位是参数而非反应）——反应级判定键不适用（扫描全零如实记录）",
+  "新 blocking": "④ODE 动力学模型的参数级判定管线未建——uniqueness 判定单位需从反应/GPR 适配到动力学参数（k1/Km 等的来源判定），E4 猜想（三态跨模型类型）的实证前置工作",
+  "sample_located": "E1 样本从 0 对定位到 5 对候选（Flis 4 相邻对+Chen 1 代际对）——判据 ≥10 对差距缩小至 5 对",
+  "unlock_remaining": "ODE 参数级判定管线开发（参数来源 notes 扫描/论文对照）——开发完成后 5 对可判，另有 Flis 族潜在更多版本与 Recon 系待扫",
+  "e4_finding": "同时实证 E4 猜想方向的必要性：ODE/fbc/参数化模型三类判定单位不同——三态枚举跨模型类型有效的检验需要逐类型判定管线（E4 的判据成本被本项目实测抬高但方向未变）"
+ },
+ "final_update_20261114_pm2": {
+  "解锁路径②终局": "继任对 5 候选全部语义不适配——①Flis 族 5 版本结构 100% 相同（56 反应全 named Δnamed=0）：它们是参数扫描变体族非维护修订族，E1\"维护对\"语义（版本间有缝隙修正演进）不适用；②Chen2000→Chen2004 跨格式不可公平比（Chen2000 规则驱动 ODE 0 reaction 元素动力学全在规则/Chen2004 94 反应 named 100%——结构租约口径不对齐）",
+  "verdict_upgrade": "GATED 维持+细化：从 GATED-数据通道 升格为 **GATED-生态缺口**——模型库生态不承载 E1 所需的维护历史结构（BioModels 记录 revisions 计数但不公开版本文件；且多版本 id 大多为参数扫描变体族非维护演进族）",
+  "ecological_finding": "**可发表的计算科学生态学发现**：模型库的版本治理缺位使得\"模型的约束质量演进\"不可研究——E8 形态库审计协议发表时应倡导版本治理（审计协议需要版本演进数据作为前置），E1 与 E8 形成互证",
+  "e1_final_sample_picture": "真维护对（版本间有参数来源/结构演进）在 BioModels 常规检索未定位到；继任对路径 5 候选全部不适配（4 参数扫描变体+1 跨格式）",
+  "methodology_output": "ODE 模型判定层结论：参数租约格式不可承载（参数名 UUID 化/notes 无来源声明）——ODE 可判层=结构租约（反应名语义）；结构租约对参数扫描族恒定（Δ=0）——E1 需要的信号（参数来源演进）在 ODE SBML 内不可观测"
+ }
+}

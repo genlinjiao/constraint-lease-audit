@@ -1,0 +1,117 @@
+{
+ "version": "1.0-正式定版",
+ "produced_at": "2026-11-14 09:29",
+ "principle": "形态=缝隙的表现形态（怎么发生的）；定版判据=①可判定②已实例化③判据不重叠——三判据全过才入库",
+ "taxonomy": {
+  "A 来源缝隙": "值有实验/文献来源但锚定不完整（F1 物种错配/F2 数字化轨迹拟合）",
+  "B 构造缝隙": "值是建模决策产物非测量（F3 拟合调整/F4 缺口填充/F5 边界构造/F6 优化不可辨识）",
+  "C 定义缝隙": "参数语义本身消解（F7 定义消解）",
+  "D 能力缝隙": "模型级预测能力缺口（F8 预测缺口显式化）——唯一非参数级形态"
+ },
+ "forms": [
+  {
+   "id": "F1",
+   "name": "物种错配",
+   "category": "A 来源缝隙",
+   "definition": "实验约束借自他物种——值有测量锚定但来源谱系非模型对象",
+   "first_model": "Karr 2012",
+   "criteria": "species_attribution 为他物种-explicit/inferred",
+   "count": 25,
+   "count_note": "Karr 154 中 ecoli 16+gallisepticum 4+bsubtilis 4+mcapricolum 1",
+   "uniqueness": "多为 identified（值唯一，缺陷在来源轴）"
+  },
+  {
+   "id": "F2",
+   "name": "数字化轨迹拟合",
+   "category": "A 来源缝隙",
+   "definition": "从已发表图形提取数据点再拟合参数——半手工形态，介于测量与纯拟合之间",
+   "first_model": "O'Hara-Rudy 2011",
+   "criteria": "正文 digitized trace fitting 声明",
+   "count": 1,
+   "count_note": "ORd 电流级 ORD-Ito-tau（逐参数级机械规则未单独标记——判定需语义读正文）",
+   "uniqueness": "one-of-many（拟合产物）"
+  },
+  {
+   "id": "F3",
+   "name": "拟合调整",
+   "category": "B 构造缝隙",
+   "definition": "模型输出与实验观测匹配的参数调整（缩放乘数/约束拟合）——原材料可能实测但终值为调整产物",
+   "first_model": "O'Hara-Rudy 2011（CaMK 缩放）+ Wodke 2013（acetate 约束）",
+   "criteria": "缩放乘数/_CaMK 修饰/fit to match/fitted 声明",
+   "count": 22,
+   "count_note": "ORd R-SCALE 21+Wodke 侦察级 acetate 1",
+   "uniqueness": "one-of-many"
+  },
+  {
+   "id": "F4",
+   "name": "缺口填充",
+   "category": "B 构造缝隙",
+   "definition": "为模型连通性/功能完整性添加的反应或参数（载体未鉴定但功能必需）",
+   "first_model": "Wodke 2013",
+   "criteria": "Missing transport reactions added/转运器命名规律",
+   "count": 67,
+   "count_note": "Wodke R-TRANSPORT-GAP 67",
+   "uniqueness": "one-of-many"
+  },
+  {
+   "id": "F5",
+   "name": "边界构造",
+   "category": "B 构造缝隙",
+   "definition": "FBA 模型的交换/汇反应——系统与环境的接口建模构造，非生物学反应",
+   "first_model": "Wodke 2013",
+   "criteria": "SINK:/SOURCE: 标记",
+   "count": 58,
+   "count_note": "Wodke R-SINKSOURCE 58",
+   "uniqueness": "one-of-many"
+  },
+  {
+   "id": "F6",
+   "name": "优化不可辨识",
+   "category": "B 构造缝隙",
+   "definition": "优化算法产出的参数值——解空间中的一个解，换初始化/优化器会得到不同值",
+   "first_model": "BAAIWorm 2024",
+   "criteria": "正文自承 optimization tuned",
+   "count": 9188,
+   "count_note": "BAAIWorm 电导参数槽（模型级判定）",
+   "uniqueness": "one-of-many"
+  },
+  {
+   "id": "F7",
+   "name": "定义消解",
+   "category": "C 定义缝隙",
+   "definition": "参数本质上是建模假设（假想细胞的组成部分）——租约在定义层面失效",
+   "first_model": "E-Cell 1999",
+   "criteria": "假想细胞/功能补位/估计赋值自认",
+   "count": 2,
+   "count_note": "E-Cell 模型级 fillin_genes_7+kinetic_params",
+   "uniqueness": "one-of-many"
+  },
+  {
+   "id": "F8",
+   "name": "预测缺口显式化",
+   "category": "D 能力缝隙",
+   "definition": "模型预测与实测显著偏离的作者显式声明——不是参数来源问题而是模型预测能力问题",
+   "first_model": "Wodke 2013",
+   "criteria": "预测值与实测值数量级偏离+作者显式声明",
+   "count": 1,
+   "count_note": "Wodke 倍增时间（模拟 2.3-3.8h vs 实测 19.7-59.7h）",
+   "uniqueness": "non-identified（模型级能力判定）",
+   "class_note": "唯一非参数级形态——模型级缝隙"
+  }
+ ],
+ "f8_verdict": {
+  "criteria_frozen": [
+   "①可判定：预测值与实测值偏离+作者显式声明（机械可核）",
+   "②已实例化：Wodke 2013 倍增时间（至少一例）",
+   "③判据不与既有形态重叠：非参数来源问题（A 类）/非建模构造（B 类）/非定义问题（C 类）——是模型整体行为与实测的偏离"
+  ],
+  "verdict": "CONFIRMED——F8 定版，归 D 类（能力缝隙）",
+  "class_note": "D 类为模型级缝隙，与 A/B/C 参数级形态不同层——形态库=参数级 7 形态+模型级 1 形态"
+ },
+ "coverage_note": "实例计数来自五模型判定产物机械盘点；模型级判定（E-Cell/BAAIWorm/形态 F6/F7）不折算逐参数数",
+ "data_sources": [
+  "Karr2012 CSV（154）/ORd2011 JSON（262+12 电流级）/Wodke2013 JSON（306+9 侦察级）",
+  "三模型uniqueness打标 JSON（E-Cell/BAAIWorm 模型级）"
+ ],
+ "用途": "书稿第二篇租约类型学的形态学基座；后续模型审计的形态归类词典"
+}

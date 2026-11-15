@@ -1,0 +1,263 @@
+﻿ID,Name,Value,Units,ExperimentallyConstrained,species_attribution,rewritten_flag,lease_axis,comments,uniqueness,rule
+ORD-P0001,var.length,0.01,,Y,literature-unattributed,,modeling,Length of the cell (cm),identified,R-GEO
+ORD-P0002,var.a,0.0011,,Y,literature-unattributed,,modeling,Radius of the cell (cm),identified,R-GEO
+ORD-P0003,var.zna,1,,Y,universal-constant,,modeling,Na valence,identified,R-PHYS
+ORD-P0004,var.zk,1,,Y,universal-constant,,modeling,K valence,identified,R-PHYS
+ORD-P0005,var.zca,2,,Y,universal-constant,,modeling,Ca valence,identified,R-PHYS
+ORD-P0006,var.RTonF,R*T/F,,Y,unattributed,,modeling,,,R-UNSET
+ORD-P0007,var.nao,140.0,,N,fit_set,,modeling,Initial Bulk Medium Na (mM),identified,R-BATH
+ORD-P0008,var.ko,5.4,,N,fit_set,,modeling,Initial Bulk Medium K (mM),identified,R-BATH
+ORD-P0009,var.cao,1.8,,N,fit_set,,modeling,Initial Bulk Medium Ca (mM),identified,R-BATH
+ORD-P0010,ina.Gna_fast,75.0,,Y,own_species-explicit,,modeling,(mS/uF).,identified,R-HUMAN
+ORD-P0011,ina.Ah_fast,0.99,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0012,ina.Ah_slow,0.01,,Y,own_species-explicit,,modeling,(1.0-ina.Ah_fast),identified,R-HUMAN
+ORD-P0013,ina.Ah_CaMK_fast,ina.Ah_fast,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0014,ina.Ah_CaMK_slow,ina.Ah_slow,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0015,ina.Gna_late,0.0075,,Y,own_species-explicit,,modeling,(mS/uF).,identified,R-HUMAN
+ORD-P0016,ina.Gna_late,0.0075*0.6,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0017,ina.tauhl,200.0,,Y,own_species-explicit,,modeling,(ms).,identified,R-HUMAN
+ORD-P0018,ito.Gto,0.02,,Y,own_species-explicit,,modeling,(mS/uF).,identified,R-HUMAN
+ORD-P0019,ito.Gto,4.0*0.02,,Y,own_species-explicit,,modeling,(mS/uF).,identified,R-HUMAN
+ORD-P0020,ical.Af_fast,0.6,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0021,ical.Af_slow,0.4,,Y,own_species-explicit,,modeling,1.0 - ical.Af_fast;,identified,R-HUMAN
+ORD-P0022,ical.taujca,75.0,,Y,own_species-explicit,,modeling,(ms).,identified,R-HUMAN
+ORD-P0023,ical.kmn,0.002,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0024,ical.kp2n,1000.0,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0025,ical.gacai,1.0,,Y,own_species-explicit,,modeling,Activity coefficient of Ca,identified,R-HUMAN
+ORD-P0026,ical.gacao,0.341,,Y,own_species-explicit,,modeling,Activity coefficient of Ca,identified,R-HUMAN
+ORD-P0027,ical.ganai,0.75,,Y,own_species-explicit,,modeling,Activity coefficient of Na,identified,R-HUMAN
+ORD-P0028,ical.ganao,0.75,,Y,own_species-explicit,,modeling,Activity coefficient of Na,identified,R-HUMAN
+ORD-P0029,ical.gaki,0.75,,Y,own_species-explicit,,modeling,Activity coefficient of K,identified,R-HUMAN
+ORD-P0030,ical.gako,0.75,,Y,own_species-explicit,,modeling,Activity coefficient of K,identified,R-HUMAN
+ORD-P0031,ical.pca,0.0001,,Y,own_species-explicit,,modeling,Permiability of membrane to Ca (cm/s),identified,R-HUMAN
+ORD-P0032,ical.pca,0.0001*1.2,,N,fit_set,,modeling,Permiability of membrane to Ca (cm/s),one-of-many,R-SCALE
+ORD-P0033,ical.pca,0.0001*2.5,,Y,own_species-explicit,,modeling,Permiability of membrane to Ca (cm/s),identified,R-HUMAN
+ORD-P0034,ikr.Gkr,0.046,,Y,own_species-explicit,,modeling,(mS/uF),identified,R-HUMAN
+ORD-P0035,ikr.Gkr,1.3*0.046,,Y,own_species-explicit,,modeling,(mS/uF),identified,R-HUMAN
+ORD-P0036,ikr.Gkr,0.8*0.046,,Y,own_species-explicit,,modeling,(mS/uF),identified,R-HUMAN
+ORD-P0037,iks.Gks,0.0034,,Y,own_species-explicit,,modeling,(mS/uF),identified,R-HUMAN
+ORD-P0038,iks.Gks,1.4*0.0034,,Y,own_species-explicit,,modeling,(mS/uF),identified,R-HUMAN
+ORD-P0039,var.prnak,0.01833,,Y,unattributed,,modeling,Na/K Permiability Ratio,,R-UNSET
+ORD-P0040,ik1.Gk1,0.1908,,Y,own_species-explicit,,modeling,(mS/uF),identified,R-HUMAN
+ORD-P0041,ik1.Gk1,1.2*0.1908,,Y,own_species-explicit,,modeling,(mS/uF),identified,R-HUMAN
+ORD-P0042,ik1.Gk1,1.3*0.1908,,Y,own_species-explicit,,modeling,(mS/uF),identified,R-HUMAN
+ORD-P0043,var.kna1,15.0,,Y,unattributed,,modeling,(mM),,R-UNSET
+ORD-P0044,var.kna2,5.0,,Y,unattributed,,modeling,(mM),,R-UNSET
+ORD-P0045,var.kna3,88.12,,Y,unattributed,,modeling,(mM),,R-UNSET
+ORD-P0046,var.kasym,12.5,,Y,unattributed,,modeling,(mM),,R-UNSET
+ORD-P0047,var.omega_na,6.0E+4,,Y,unattributed,,modeling,(Hz),,R-UNSET
+ORD-P0048,var.omega_ca,6.0E+4,,Y,unattributed,,modeling,(Hz),,R-UNSET
+ORD-P0049,var.omega_naca,5.0E+3,,Y,unattributed,,modeling,(Hz),,R-UNSET
+ORD-P0050,var.kca_on,1.5E+6,,Y,unattributed,,modeling,(mM/ms),,R-UNSET
+ORD-P0051,var.kca_off,5.0E+3,,Y,unattributed,,modeling,(Hz),,R-UNSET
+ORD-P0052,var.qna,0.5224,,Y,unattributed,,modeling,,,R-UNSET
+ORD-P0053,var.qca,0.1670,,Y,unattributed,,modeling,,,R-UNSET
+ORD-P0054,var.km_ca_act,150E-6,,Y,unattributed,,modeling,(mM),,R-UNSET
+ORD-P0055,var.Gnaca,0.0008,,Y,unattributed,,modeling,(uC/uF),,R-UNSET
+ORD-P0056,var.Gnaca,1.1*0.0008,,Y,unattributed,,modeling,(uC/uF),,R-UNSET
+ORD-P0057,var.Gnaca,1.4*0.0008,,Y,unattributed,,modeling,(uC/uF),,R-UNSET
+ORD-P0058,inak.kp1,949.5,,N,fit_set,,modeling,(Hz),one-of-many,R-INAK
+ORD-P0059,inak.km1,182.4,,N,fit_set,,modeling,(1/mM),one-of-many,R-INAK
+ORD-P0060,inak.kp2,687.2,,N,fit_set,,modeling,(Hz),one-of-many,R-INAK
+ORD-P0061,inak.km2,39.4,,N,fit_set,,modeling,(Hz),one-of-many,R-INAK
+ORD-P0062,inak.kp3,1899.0,,N,fit_set,,modeling,(Hz),one-of-many,R-INAK
+ORD-P0063,inak.km3,79300.0,,N,fit_set,,modeling,(Hz/mM/mM),one-of-many,R-INAK
+ORD-P0064,inak.kp4,639.0,,N,fit_set,,modeling,(Hz),one-of-many,R-INAK
+ORD-P0065,inak.km4,40.0,,N,fit_set,,modeling,(Hz),one-of-many,R-INAK
+ORD-P0066,inak.ko_nai,9.073,,N,fit_set,,modeling,(mM),one-of-many,R-INAK
+ORD-P0067,inak.ko_nao,27.78,,N,fit_set,,modeling,(mM),one-of-many,R-INAK
+ORD-P0068,inak.delta,-0.1550,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0069,inak.kki,0.5,,N,fit_set,,modeling,(mM),one-of-many,R-INAK
+ORD-P0070,inak.kko,0.3582,,N,fit_set,,modeling,(mM),one-of-many,R-INAK
+ORD-P0071,inak.MgADP,0.05,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0072,inak.MgATP,9.8,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0073,inak.k_MgATP,1.698E-7,,N,fit_set,,modeling,(mM),one-of-many,R-INAK
+ORD-P0074,inak.H,1.0E-7,,N,fit_set,,modeling,(mM) proton,one-of-many,R-INAK
+ORD-P0075,inak.SigP,4.2,,N,fit_set,,modeling,(mM),one-of-many,R-INAK
+ORD-P0076,inak.HP,1.698E-7,,N,fit_set,,modeling,(mM),one-of-many,R-INAK
+ORD-P0077,inak.nap,224.0,,N,fit_set,,modeling,(mM),one-of-many,R-INAK
+ORD-P0078,inak.kp,292.0,,N,fit_set,,modeling,(mM),one-of-many,R-INAK
+ORD-P0079,inak.b1,inak.km1*inak.MgADP,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0080,inak.a2,inak.kp2,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0081,inak.a4,inak.kp4*inak.MgATP/inak.k_MgATP/(1.0 + ,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0082,inak.G,30.0,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0083,inak.G,0.9*30.0,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0084,inak.G,0.7*30.0,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0085,ipca.G,0.0005,,Y,unattributed,,modeling,Max. Ca current through sarcolemmal Ca pump (mS/uF),,R-AUX
+ORD-P0086,ipca.km,0.0005,,Y,unattributed,,modeling,Half-saturation concentration of sarcolemmal Ca pump (mM),,R-AUX
+ORD-P0087,ikb.G,0.003,,Y,unattributed,,modeling,Max. conductance of K background (mS/uF),,R-AUX
+ORD-P0088,ikb.G,0.6*0.003,,Y,unattributed,,modeling,Max. conductance of K background (mS/uF),,R-AUX
+ORD-P0089,icab.pcab,2.5E-8,,Y,unattributed,,modeling,(cm/s),,R-AUX
+ORD-P0090,icab.gacai,1.0,,Y,unattributed,,modeling,,,R-AUX
+ORD-P0091,icab.gacao,0.341,,Y,unattributed,,modeling,,,R-AUX
+ORD-P0092,inab.pnab,3.75E-10,,Y,unattributed,,modeling,(cm/s),,R-AUX
+ORD-P0093,CaMK.a,0.05,,Y,unattributed,,modeling,(1.0/ms),,R-UNSET
+ORD-P0094,CaMK.b,0.00068,,Y,unattributed,,modeling,(1.0/ms),,R-UNSET
+ORD-P0095,CaMK.z,0.05,,Y,unattributed,,modeling,,,R-UNSET
+ORD-P0096,CaM.Km,0.0015,,Y,unattributed,,modeling,(mM),,R-UNSET
+ORD-P0097,CaMK.Km,0.15,,Y,unattributed,,modeling,,,R-UNSET
+ORD-P0098,jdiff.tau_na,2.0,,N,fit_set,,modeling,(ms),one-of-many,R-CACYC
+ORD-P0099,jdiff.tau_k,2.0,,N,fit_set,,modeling,(ms),one-of-many,R-CACYC
+ORD-P0100,jdiff.tau_ca,0.2,,N,fit_set,,modeling,(ms),one-of-many,R-CACYC
+ORD-P0101,jrel.b_tau,4.75,,N,fit_set,,modeling,(ms),one-of-many,R-CACYC
+ORD-P0102,jrel.a,0.5*jrel.b_tau,,N,fit_set,,modeling,(ms),one-of-many,R-CACYC
+ORD-P0103,jrel.b_tau_CaMK,1.25*jrel.b_tau,,N,fit_set,,modeling,(ms),one-of-many,R-SCALE
+ORD-P0104,jrel.a_CaMK,0.5*jrel.b_tau_CaMK,,N,fit_set,,modeling,(ms),one-of-many,R-SCALE
+ORD-P0105,jrel.p,1.0,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0106,jrel.p,1.7,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0107,jup.dKm_PLB,0.00017,,N,fit_set,,modeling,(mM),one-of-many,R-CACYC
+ORD-P0108,jup.dCaMK,1.75,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0109,jup.p,1.0,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0110,jup.p,1.3,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0111,jtr.tau,100.0,,N,fit_set,,modeling,Time constant of Ca transfer from NSR to JSR (ms),one-of-many,R-CACYC
+ORD-P0112,var.cmdnbar,0.050,,Y,unattributed,,modeling,Max. [Ca] buffered in CMDN (mM),,R-UNSET
+ORD-P0113,var.cmdnbar,1.3*0.050,,Y,unattributed,,modeling,Max. [Ca] buffered in CMDN (mM),,R-UNSET
+ORD-P0114,var.trpnbar,0.070,,Y,unattributed,,modeling,Max. [Ca] buffered in TRPN (mM),,R-UNSET
+ORD-P0115,var.bsrbar,0.047,,Y,unattributed,,modeling,Max.[Ca] buffered in BSR (mM),,R-UNSET
+ORD-P0116,var.bslbar,1.124,,Y,unattributed,,modeling,Max.[Ca] buffered in BSL (mM),,R-UNSET
+ORD-P0117,var.csqnbar,10.0,,Y,unattributed,,modeling,Max. [Ca] buffered in CSQN (mM),,R-UNSET
+ORD-P0118,var.kmcmdn,0.00238,,Y,unattributed,,modeling,Equalibrium constant of buffering for CMDN (mM),,R-UNSET
+ORD-P0119,var.kmtrpn,0.0005,,Y,unattributed,,modeling,Equalibrium constant of buffering for TRPN (mM),,R-UNSET
+ORD-P0120,var.kmbsr,0.00087,,Y,unattributed,,modeling,Equalibrium constant of buffering for BSR (mM),,R-UNSET
+ORD-P0121,var.kmbsl,0.0087,,Y,unattributed,,modeling,Equalibrium constant of buffering for BSL (mM),,R-UNSET
+ORD-P0122,var.kmcsqn,0.8,,Y,unattributed,,modeling,Equalibrium constant of buffering for CSQN (mM),,R-UNSET
+ORD-P0123,ina.mss,ina.Tmss[iV]*d2 + ina.Tmss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0124,ina.taum,ina.Ttaum[iV]*d2 + ina.Ttaum[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0125,ina.hss,ina.Thss[iV]*d2 + ina.Thss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0126,ina.tauh_fast,ina.Ttauh_fast[iV]*d2 + ina.Ttauh_fast[i,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0127,ina.tauh_slow,ina.Ttauh_slow[iV]*d2 + ina.Ttauh_slow[i,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0128,ina.h,ina.Ah_fast*x[2] + ina.Ah_slow*x[3],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0129,ina.jss,ina.hss,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0130,ina.tauj,ina.Ttauj[iV]*d2 + ina.Ttauj[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0131,ina.hCaMKss,ina.ThCaMKss[iV]*d2 + ina.ThCaMKss[iV+1],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0132,ina.hCaMK,ina.Ah_CaMK_fast*x[2] + ina.Ah_CaMK_slow,,Y,own_species-explicit,,modeling,h_CaMK_fast = h_fast (x[2]),identified,R-HUMAN
+ORD-P0133,ina.jCaMKss,ina.jss,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0134,ina.fast_phospho_CaMK,1.0/(1.0 + CaMK.Km/CaMK.active),,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0135,ina.mlss,ina.Tmlss[iV]*d2 + ina.Tmlss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0136,ina.tauml,ina.taum,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0137,ina.hlss,ina.Thlss[iV]*d2 + ina.Thlss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0138,ina.hlCaMKss,ina.ThlCaMKss[iV]*d2 + ina.ThlCaMKss[iV+,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0139,ina.late_phospho_CaMK,1.0/(1.0 + CaMK.Km/CaMK.active),,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0140,ina.total,ina.fast + ina.late,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0141,ito.ass,ito.Tass[iV]*d2 + ito.Tass[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0142,ito.taua,ito.Ttaua[iV]*d2 + ito.Ttaua[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0143,ito.iss,ito.Tiss[iV]*d2 + ito.Tiss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0144,ito.depi,ito.Tdepi[iV]*d2 + ito.Tdepi[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0145,ito.depi,1.0,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0146,ito.taui_fast,ito.depi*(ito.Ttaui_fast[iV]*d2 + ito.Tt,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0147,ito.taui_slow,ito.depi*(ito.Ttaui_slow[iV]*d2 + ito.Tt,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0148,ito.Ai_fast,ito.TAi_fast[iV]*d2 + ito.TAi_fast[iV+1],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0149,ito.Ai_slow,1.0 - ito.Ai_fast,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0150,ito.i,ito.Ai_fast*x[11] + ito.Ai_slow*x[12],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0151,ito.aCaMKss,ito.TaCaMKss[iV]*d2 + ito.TaCaMKss[iV+1],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0152,ito.taua_CaMK,ito.taua,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0153,ito.iCaMKss,ito.iss,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0154,ito.deltaCaMK_dev,ito.TdeltaCaMK_dev[iV]*d2 + ito.TdeltaCa,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0155,ito.deltaCaMK_rec,ito.TdeltaCaMK_rec[iV]*d2 + ito.TdeltaCa,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0156,ito.taui_CaMK_fast,ito.taui_fast*ito.deltaCaMK_dev*ito.delt,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0157,ito.taui_CaMK_slow,ito.taui_slow*ito.deltaCaMK_dev*ito.delt,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0158,ito.Ai_CaMK_fast,ito.Ai_fast,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0159,ito.Ai_CaMK_slow,ito.Ai_slow,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0160,ito.iCaMK,ito.Ai_CaMK_fast*x[14] + ito.Ai_CaMK_slo,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0161,ito.phospho_CaMK,1.0/(1.0 + CaMK.Km/CaMK.active),,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0162,ical.dss,ical.Tdss[iV]*d2 + ical.Tdss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0163,ical.taud,ical.Ttaud[iV]*d2 + ical.Ttaud[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0164,ical.fss,ical.Tfss[iV]*d2 + ical.Tfss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0165,ical.tauf_fast,ical.Ttauf_fast[iV]*d2 + ical.Ttauf_fast,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0166,ical.tauf_slow,ical.Ttauf_slow[iV]*d2 + ical.Ttauf_slow,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0167,ical.f,ical.Af_fast*x[17] + ical.Af_slow*x[18],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0168,ical.fcass,ical.fss,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0169,ical.taufca_fast,ical.Ttaufca_fast[iV]*d2 + ical.Ttaufca_,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0170,ical.taufca_slow,ical.Ttaufca_slow[iV]*d2 + ical.Ttaufca_,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0171,ical.Afca_fast,ical.TAfca_fast[iV]*d2 + ical.TAfca_fast,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0172,ical.Afca_slow,1.0 - ical.Afca_fast,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0173,ical.fca,ical.Afca_fast*x[19] + ical.Afca_slow*x[,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0174,ical.f_CaMK,ical.Af_fast*x[22] + ical.Af_slow*x[18],,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0175,ical.fca_CaMK,ical.Afca_fast*x[23] + ical.Afca_slow*x[,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0176,ical.km2n,1.0*x[21],,Y,own_species-explicit,,modeling,(jca: recovery from CDI for ICaL ),identified,R-HUMAN
+ORD-P0177,ical.tmp,1.0+ical.kmn/x[38],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0178,ical.exp_Ca,ical.Texp_Ca[iV]*d2 + ical.Texp_Ca[iV+1],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0179,ical.exp_Na,ical.Texp_Na[iV]*d2 + ical.Texp_Na[iV+1],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0180,ical.exp_K,ical.Texp_K[iV]*d2 + ical.Texp_K[iV+1]*d,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0181,ical.phospho_CaMK,1.0/(1.0 + CaMK.Km/CaMK.active),,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0182,ikr.xrss,ikr.Txrss[iV]*d2 + ikr.Txrss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0183,ikr.tauxr_fast,ikr.Ttauxr_fast[iV]*d2 + ikr.Ttauxr_fast,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0184,ikr.tauxr_slow,ikr.Ttauxr_slow[iV]*d2 + ikr.Ttauxr_slow,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0185,ikr.Axr_fast,ikr.TAxr_fast[iV]*d2 + ikr.TAxr_fast[iV+,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0186,ikr.Axr_slow,1.0 - ikr.Axr_fast,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0187,ikr.rkr,ikr.Trkr[iV]*d2 + ikr.Trkr[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0188,ikr.xr,ikr.Axr_fast*x[25] + ikr.Axr_slow*x[26],,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0189,iks.xs1ss,iks.Txs1ss[iV]*d2 + iks.Txs1ss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0190,iks.xs2ss,iks.xs1ss,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0191,iks.tauxs1,iks.Ttauxs1[iV]*d2 + iks.Ttauxs1[iV+1]*d,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0192,iks.tauxs2,iks.Ttauxs2[iV]*d2 + iks.Ttauxs2[iV+1]*d,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0193,ik1.k1ss,ik1.Tk1ss[iV]*d2 + ik1.Tk1ss[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0194,ik1.tauk1,ik1.Ttauk1[iV]*d2 + ik1.Ttauk1[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0195,ik1.rk1,ik1.Trk1[iV]*d2 + ik1.Trk1[iV+1]*d1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0196,ncxi.h3,1.0/ncxi.h1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0197,ncxi.h6,1.0/ncxi.h4,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0198,ncxi.h9,1.0/ncxi.h7,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0199,ncxi.h12,1.0/ncxi.h10,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0200,ncxi.k3,ncxi.k31 + ncxi.k32,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0201,ncxi.k4,ncxi.k41 + ncxi.k42,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0202,ncxi.x1,ncxi.k2*ncxi.k4*(ncxi.k7+ncxi.k6)+ncxi.k,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0203,ncxi.x2,ncxi.k1*ncxi.k7*(ncxi.k4+ncxi.k5)+ncxi.k,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0204,ncxi.x3,ncxi.k1*ncxi.k3*(ncxi.k7+ncxi.k6)+ncxi.k,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0205,ncxi.x4,ncxi.k2*ncxi.k8*(ncxi.k4+ncxi.k5)+ncxi.k,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0206,ncxi.E1,ncxi.x1/(ncxi.x1+ncxi.x2+ncxi.x3+ncxi.x4,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0207,ncxi.E2,ncxi.x2/(ncxi.x1+ncxi.x2+ncxi.x3+ncxi.x4,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0208,ncxi.E3,ncxi.x3/(ncxi.x1+ncxi.x2+ncxi.x3+ncxi.x4,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0209,ncxi.E4,ncxi.x4/(ncxi.x1+ncxi.x2+ncxi.x3+ncxi.x4,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0210,ncxi.jnaca_na,3.0*(ncxi.E4*ncxi.k7 - ncxi.E1*ncxi.k8) ,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0211,ncxi.jnaca_ca,ncxi.E2*ncxi.k2 - ncxi.E1*ncxi.k1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0212,ncxss.h3,1.0/ncxss.h1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0213,ncxss.h6,1.0/ncxss.h4,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0214,ncxss.h9,1.0/ncxss.h7,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0215,ncxss.h12,1.0/ncxss.h10,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0216,ncxss.k3,ncxss.k31 + ncxss.k32,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0217,ncxss.k4,ncxss.k41 + ncxss.k42,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0218,ncxss.x1,ncxss.k2*ncxss.k4*(ncxss.k7+ncxss.k6)+nc,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0219,ncxss.x2,ncxss.k1*ncxss.k7*(ncxss.k4+ncxss.k5)+nc,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0220,ncxss.x3,ncxss.k1*ncxss.k3*(ncxss.k7+ncxss.k6)+nc,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0221,ncxss.x4,ncxss.k2*ncxss.k8*(ncxss.k4+ncxss.k5)+nc,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0222,ncxss.E1,ncxss.x1/(ncxss.x1+ncxss.x2+ncxss.x3+ncx,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0223,ncxss.E2,ncxss.x2/(ncxss.x1+ncxss.x2+ncxss.x3+ncx,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0224,ncxss.E3,ncxss.x3/(ncxss.x1+ncxss.x2+ncxss.x3+ncx,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0225,ncxss.E4,ncxss.x4/(ncxss.x1+ncxss.x2+ncxss.x3+ncx,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0226,ncxss.jnaca_na,3.0*(ncxss.E4*ncxss.k7 - ncxss.E1*ncxss.,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0227,ncxss.jnaca_ca,ncxss.E2*ncxss.k2 - ncxss.E1*ncxss.k1,,Y,own_species-explicit,,modeling,,identified,R-HUMAN
+ORD-P0228,inak.knai,inak.Tknai[iV]*d2 + inak.Tknai[iV+1]*d1,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0229,inak.knao,inak.Tknao[iV]*d2 + inak.Tknao[iV+1]*d1,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0230,inak.P,inak.SigP/(1.0 + (inak.H/inak.HP) + (x[3,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0231,inak.b3,inak.km3*inak.P*inak.H/(1.0+inak.MgATP/i,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0232,inak.x1,inak.a4*inak.a1*inak.a2+inak.b1*inak.b4*,,N,fit_set,,modeling,correction by Kurata,one-of-many,R-INAK
+ORD-P0233,inak.x2,inak.b2*inak.b1*inak.b4+inak.a1*inak.a2*,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0234,inak.x3,inak.a2*inak.a3*inak.a4+inak.b3*inak.b2*,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0235,inak.x4,inak.b4*inak.b3*inak.b2+inak.a3*inak.a4*,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0236,inak.E1,inak.x1/(inak.x1+inak.x2+inak.x3+inak.x4,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0237,inak.E2,inak.x2/(inak.x1+inak.x2+inak.x3+inak.x4,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0238,inak.E3,inak.x3/(inak.x1+inak.x2+inak.x3+inak.x4,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0239,inak.E4,inak.x4/(inak.x1+inak.x2+inak.x3+inak.x4,,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0240,inak.jna,3.0*(inak.E1*inak.a3 - inak.E2*inak.b3),,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0241,inak.jk,2.0*(inak.E4*inak.b1 - inak.E3*inak.a1),,N,fit_set,,modeling,,one-of-many,R-INAK
+ORD-P0242,ipca.ca,ipca.G*x[37]/(ipca.km + x[37]),,Y,unattributed,,modeling,,,R-AUX
+ORD-P0243,ikb.xkb,ikb.Txkb[iV]*d2 + ikb.Txkb[iV+1]*d1,,Y,unattributed,,modeling,,,R-AUX
+ORD-P0244,icab.exp,icab.Texp[iV]*d2 + icab.Texp[iV+1]*d1,,Y,unattributed,,modeling,,,R-AUX
+ORD-P0245,inab.exp,inab.Texp[iV]*d2 + inab.Texp[iV+1]*d1,,Y,unattributed,,modeling,,,R-AUX
+ORD-P0246,CaMK.bound,CaMK.z*(1.0-x[30])/(1.0+CaM.Km/x[38]),,Y,unattributed,,modeling,,,R-UNSET
+ORD-P0247,CaMK.active,CaMK.bound + x[30],,Y,unattributed,,modeling,,,R-UNSET
+ORD-P0248,jdiff.na,(x[34]-x[33])/jdiff.tau_na,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0249,jdiff.k,(x[36]-x[35])/jdiff.tau_k,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0250,jdiff.ca,(x[38]-x[37])/jdiff.tau_ca,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0251,jrel.tau_NP,jrel.b_tau/(1.0+(0.0123/x[40])),,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0252,jrel.tau_NP,0.001,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0253,jrel.tau_CaMK,jrel.b_tau_CaMK/(1.0+(0.0123/x[40])),,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0254,jrel.tau_CaMK,0.001,,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0255,jrel.phospho_CaMK,1.0/(1.0+CaMK.Km/CaMK.active),,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0256,jrel.ca,(1.0-jrel.phospho_CaMK)*x[31]+jrel.phosp,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0257,jup.np,jup.p*(0.004375*x[37]/(0.00092+x[37])),,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0258,jup.CaMK,jup.p*((1.0+jup.dCaMK)*0.004375*x[37]/(0,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0259,jup.phospho_CaMK,1.0/(1.0 + CaMK.Km/CaMK.active),,N,fit_set,,modeling,,one-of-many,R-SCALE
+ORD-P0260,jup.leak,0.0039375*x[39]/15.0,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0261,jup.ca,(1.0-jup.phospho_CaMK)*jup.np + jup.phos,,N,fit_set,,modeling,,one-of-many,R-CACYC
+ORD-P0262,jtr.ca,(x[39]-x[40])/jtr.tau,,N,fit_set,,modeling,,one-of-many,R-CACYC

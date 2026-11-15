@@ -1,0 +1,67 @@
+{
+ "produced_by": "lease_consumption_demo.py",
+ "entries": 1211,
+ "validate_lease_fail": 0,
+ "summary": {
+  "by_uniqueness": {
+   "identified": 683,
+   "non-identified": 28,
+   "one-of-many": 450
+  },
+  "by_source_type": {
+   "cross_species": 25,
+   "unattributed": 146,
+   "fit_set": 453,
+   "own_species": 587
+  },
+  "uniqueness_unset": 50
+ },
+ "identified_pct_by_model": {
+  "karr": 58.4,
+  "ord": 49.6,
+  "wodke": 51.0,
+  "gaspari": 62.8
+ },
+ "one_of_many_by_model": {
+  "karr": 36,
+  "ord": 85,
+  "wodke": 150,
+  "gaspari": 179
+ },
+ "own_species_identified_by_model": {
+  "karr": 2,
+  "ord": 122,
+  "wodke": 156,
+  "gaspari": 307
+ },
+ "non_identified": [
+  "karr:Parameter_0002",
+  "karr:Parameter_0004",
+  "karr:Parameter_0005",
+  "karr:Parameter_0009",
+  "karr:Parameter_0022",
+  "karr:Parameter_0023",
+  "karr:Parameter_0024",
+  "karr:Parameter_0025",
+  "karr:Parameter_0026",
+  "karr:Parameter_0027",
+  "karr:Parameter_0028",
+  "karr:Parameter_0029",
+  "karr:Parameter_0030",
+  "karr:Parameter_0031",
+  "karr:Parameter_0045",
+  "karr:Parameter_0046",
+  "karr:Parameter_0047",
+  "karr:Parameter_0048",
+  "karr:Parameter_0063",
+  "karr:Parameter_0064",
+  "karr:Parameter_0065",
+  "karr:Parameter_0067",
+  "karr:Parameter_0068",
+  "karr:Parameter_0069",
+  "karr:Parameter_0072",
+  "karr:Parameter_0077",
+  "karr:Parameter_0081",
+  "karr:Parameter_0082"
+ ]
+}

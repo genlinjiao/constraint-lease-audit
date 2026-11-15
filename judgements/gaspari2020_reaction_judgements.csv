@@ -1,0 +1,490 @@
+﻿ID,ReactionID,Name,source_type,uniqueness,rule
+GAS-R001,R_GAPDHi,Glyceraldehyde-3-phosphate dehydrogenase (phosphorylating),own_species-explicit,identified,R-GPR
+GAS-R002,R_EX_thr__L_e,L-Threonine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R003,R_EX_leu__L_e,L-Leucine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R004,R_X5PL3E,L-xylulose 5-phosphate 3-epimerase,own_species-explicit,identified,R-GPR
+GAS-R005,R_EX_arg__L_e,L-Arginine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R006,R_TRDR,Thioredoxin reductase (NADPH),own_species-explicit,identified,R-GPR
+GAS-R007,R_EX_cys__L_e,L-Cysteine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R008,R_ADTP,Adenine phosphoribosyltransferase,own_species-explicit,identified,R-GPR
+GAS-R009,R_G3PO,Glycerol-3-phosphate oxidase,own_species-explicit,identified,R-GPR
+GAS-R010,R_DGK1,Deoxyguanylate kinase (dGMP:ATP),own_species-explicit,identified,R-GPR
+GAS-R011,R_GHMT2r,"Glycine hydroxymethyltransferase, reversible",own_species-explicit,identified,R-GPR
+GAS-R012,R_PUNP1,Purine-nucleoside phosphorylase (Adenosine),own_species-explicit,identified,R-GPR
+GAS-R013,R_PUNP2,Purine-nucleoside phosphorylase (Deoxyadenosine),own_species-explicit,identified,R-GPR
+GAS-R014,R_TALA,Transaldolase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R015,R_ASCBPL,L-ascorbate 6-phosphate lactonase,own_species-explicit,identified,R-GPR
+GAS-R016,R_EX_ade_e,Adenine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R017,R_PPM2,Phosphopentomutase 2 (deoxyribose),own_species-explicit,identified,R-GPR
+GAS-R018,R_ADEt2,Adenine transport in via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R019,R_ALCD19,Alcohol dehydrogenase (glycerol),own_species-explicit,identified,R-GPR
+GAS-R020,R_RR09796,dGTP:3-phospho-D-glycerate 1-phosphotransferase,own_species-explicit,identified,R-GPR
+GAS-R021,R_FBA,Fructose-bisphosphate aldolase,own_species-explicit,identified,R-GPR
+GAS-R022,R_ACALD,Acetaldehyde dehydrogenase (acetylating),own_species-explicit,identified,R-GPR
+GAS-R023,R_EX_glu__L_e,L-Glutamate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R024,R_GLYCt,glycerol transport via channel,own_species-explicit,identified,R-GPR
+GAS-R025,R_GUAPRT,Guanine phosphoribosyltransferase,own_species-explicit,identified,R-GPR
+GAS-R026,R_DADNK,DADNK,own_species-explicit,identified,R-GPR
+GAS-R027,R_DGNSKm,ATP:deoxyguanosine 5'-phosphotransferase,own_species-explicit,identified,R-GPR
+GAS-R028,R_CHLt2,Choline transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R029,R_EX_asp__L_e,L-Aspartate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R030,R_ARGORNt7,Arginine/ornithine antiporter,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R031,R_M1PD,Mannitol-1-phosphate 5-dehydrogenase,own_species-explicit,identified,R-GPR
+GAS-R032,R_MTHFC_1,MTHFC,own_species-explicit,identified,R-GPR
+GAS-R033,R_PUNP4,Purine-nucleoside phosphorylase (Deoxyguanosine),own_species-explicit,identified,R-GPR
+GAS-R034,R_EX_lys__L_e,L-Lysine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R035,R_RR00106,ATP:carbamate phosphotransferase,own_species-explicit,identified,R-GPR
+GAS-R036,R_PUNP3,Purine-nucleoside phosphorylase (Guanosine),own_species-explicit,identified,R-GPR
+GAS-R037,R_FDH,Formate dehydrogenase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R038,R_ACKr,Acetate kinase,own_species-explicit,identified,R-GPR
+GAS-R039,R_EX_asn__L_e,L-Asparagine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R040,R_NNATr,Nicotinate-nucleotide adenylyltransferase,own_species-explicit,identified,R-GPR
+GAS-R041,R_RR03769,Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyco,own_species-explicit,identified,R-GPR
+GAS-R042,R_PGM_1,Phosphoglycerate mutase,own_species-explicit,identified,R-GPR
+GAS-R043,R_TKT2,Transketolase,own_species-explicit,identified,R-GPR
+GAS-R044,R_EX_ala__L_e,L-Alanine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R045,R_EX_co2_e,CO2 exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R046,R_EX_ile__L_e,L-Isoleucine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R047,R_DTMPK,DTMP kinase,own_species-explicit,identified,R-GPR
+GAS-R048,R_TMDS,Thymidylate synthase,own_species-explicit,identified,R-GPR
+GAS-R049,R_EX_gly_e,Glycine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R050,R_CYTK2n,CYTK2n,own_species-explicit,identified,R-GPR
+GAS-R051,R_ATPsyn,ATP synthase (four protons for one ATP),own_species-explicit,identified,R-GPR
+GAS-R052,R_DHFOR,Dihydrofolate:NAD+ oxidoreductase,own_species-explicit,identified,R-GPR
+GAS-R053,R_CYTDt2,Cytidine transport in via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R054,R_MTHFD_1,MTHFD,own_species-explicit,identified,R-GPR
+GAS-R055,R_RR09795,dATP:3-phospho-D-glycerate 1-phosphotransferase,own_species-explicit,identified,R-GPR
+GAS-R056,R_RR00682,"D-Ribose 1,5-phosphomutase",own_species-explicit,identified,R-GPR
+GAS-R057,R_CO2t,CO2 transporter via diffusion,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R058,R_EX_trp__L_e,L-Tryptophan exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R059,R_OCBT,Ornithine carbamoyltransferase,own_species-explicit,identified,R-GPR
+GAS-R060,R_H2O2t,H2O2t,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R061,R_RBP4E,L-ribulose-phosphate 4-epimerase,own_species-explicit,identified,R-GPR
+GAS-R062,R_EX_met__L_e,L-Methionine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R063,R_URIDK2r,Uridylate kinase (dUMP),own_species-explicit,identified,R-GPR
+GAS-R064,R_EX_h_e,H+ exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R065,R_ADK1,Adenylate kinase,own_species-explicit,identified,R-GPR
+GAS-R066,R_O2t,O2 transport diffusion ,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R067,R_UDPG4E,UDPglucose 4-epimerase,own_species-explicit,identified,R-GPR
+GAS-R068,R_GPDDA1,Glycerophosphodiester phosphodiesterase (Glycerophosphocholi,own_species-explicit,identified,R-GPR
+GAS-R069,R_PGK,Phosphoglycerate kinase,own_species-explicit,identified,R-GPR
+GAS-R070,R_DHFR2i,Dihydrofolate reductase (NAD+),own_species-explicit,identified,R-GPR
+GAS-R071,R_MPAKI,D-mannose-6-phosphate aldose-ketose-isomerase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R072,R_CYTK1,Cytidylate kinase (CMP),own_species-explicit,identified,R-GPR
+GAS-R073,R_DADK,Deoxyadenylate kinase,own_species-explicit,identified,R-GPR
+GAS-R074,R_PGCM,Phosphoglucomutase,own_species-explicit,identified,R-GPR
+GAS-R075,R_TMDPP,Thymidine phosphorylase,own_species-explicit,identified,R-GPR
+GAS-R076,R_RR03680,GTP:3-phospho-D-glycerate 1-phosphotransferase,own_species-explicit,identified,R-GPR
+GAS-R077,R_DURIPP,Deoxyuridine phosphorylase,own_species-explicit,identified,R-GPR
+GAS-R078,R_EX_ser__L_e,L-Serine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R079,R_PYNP2r,Pyrimidine-nucleoside phosphorylase (uracil),own_species-explicit,identified,R-GPR
+GAS-R080,R_LDH_L,L-lactate dehydrogenase,own_species-explicit,identified,R-GPR
+GAS-R081,R_EX_h2o_e,H2O exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R082,R_H2Ot,H2O transport via diffusion,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R083,R_EX_his__L_e,L-Histidine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R084,R_EX_val__L_e,L-Valine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R085,R_EX_gln__L_e,L-Glutamine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R086,R_RR09889,NADH oxidase (H2O-forming),own_species-explicit,identified,R-GPR
+GAS-R087,R_UPPRT,Uracil phosphoribosyltransferase,own_species-explicit,identified,R-GPR
+GAS-R088,R_PGIA,Glucose-6-phosphate isomerase (g6p-A),own_species-explicit,identified,R-GPR
+GAS-R089,R_EX_pi_e,Phosphate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R090,R_RR00952,Nicotinate D-ribonucleotide:pyrophosphate phosphoribosyltran,own_species-explicit,identified,R-GPR
+GAS-R091,R_EX_tyr__L_e,L-Tyrosine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R092,R_EX_phe__L_e,L-Phenylalanine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R093,R_PTAr,Phosphotransacetylase,own_species-explicit,identified,R-GPR
+GAS-R094,R_EX_nh3_e,NH3 exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R095,R_GALUi,UTP-glucose-1-phosphate uridylyltransferase (irreversible),own_species-explicit,identified,R-GPR
+GAS-R096,R_PDHcr,Pyruvate dehydrogenase (dihydrolipoamide dehydrogenase) reve,own_species-explicit,identified,R-GPR
+GAS-R097,R_UMPK,UMP kinase,own_species-explicit,identified,R-GPR
+GAS-R098,R_RR00681,D-Ribose-5-phosphate ketol-isomerase,own_species-explicit,identified,R-GPR
+GAS-R099,R_ENO,Enolase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R100,R_URAt2,Uracil transport in via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R101,R_TPI,Triose-phosphate isomerase,own_species-explicit,identified,R-GPR
+GAS-R102,R_RPE,Ribulose 5-phosphate 3-epimerase,own_species-explicit,identified,R-GPR
+GAS-R103,R_EX_BM_e,Biomass exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R104,R_EX_pro__L_e,L-Proline exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R105,R_RR01487,Acetyl-CoA:dihydrolipoamide S-acetyltransferase,own_species-explicit,identified,R-GPR
+GAS-R106,R_EX_chol_e,Choline exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R107,R_EX_chsterol_e,Cholesterol exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R108,R_GK1,Guanylate kinase (GMP:ATP),own_species-explicit,identified,R-GPR
+GAS-R109,R_RR09841,NH3 export,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R110,R_CYSabc,L-cysteine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R111,R_AHCi,Adenosylhomocysteinase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R112,R_HISt2r,L-histidine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R113,R_GLYK,Glycerol kinase,own_species-explicit,identified,R-GPR
+GAS-R114,R_EX_pydx_e,Pyridoxal exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R115,R_IR09815,folate transporter,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R116,R_PYK3,Pyruvate kinase(3),own_species-explicit,identified,R-GPR
+GAS-R117,R_ILEt2r,L isoleucine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R118,R_ASPt2r,L aspartate reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R119,R_ASNTRS,Asparaginyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R120,R_IR09934,apoACP synthesis,fit_set,one-of-many,R-BIOMASS-MECH
+GAS-R121,R_PHEt2r,L phenylalanine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R122,R_LEUTRS,Leucyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R123,R_EX_cytd_e,Cytidine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R124,R_SERabc,L-Serine transport via ABC System,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R125,R_ASPabc,L-aspartate transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R126,R_EX_ascb__L_e,L-Ascorbate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R127,R_PYK,Pyruvate kinase,own_species-explicit,identified,R-GPR
+GAS-R128,R_EX_pap_e,Adenosine 3 5 bisphosphate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R129,R_PAPt2r,adenosine 3 5 bisphosphate transport FAKE,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R130,R_IR09956,DnaK catalyzed protein folding (Mpn),own_species-explicit,identified,R-GPR
+GAS-R131,R_FRUK,Fructose-1-phosphate kinase,own_species-explicit,identified,R-GPR
+GAS-R132,R_RNDR4,Ribonucleoside-diphosphate reductase (UDP),own_species-explicit,identified,R-GPR
+GAS-R133,R_PTPATi,Pantetheine-phosphate adenylyltransferase,own_species-explicit,identified,R-GPR
+GAS-R134,R_PYK4,Pyruvate kinase(4),own_species-explicit,identified,R-GPR
+GAS-R135,R_PYDXK,Pyridoxal kinase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R136,R_RNDR1,Ribonucleoside-diphosphate reductase (ADP),own_species-explicit,identified,R-GPR
+GAS-R137,R_IR09590,Phosphate transport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R138,R_IR00932,Pyruvate:lipoamide 2-oxidoreductase(decarboxylating andaccep,own_species-explicit,identified,R-GPR
+GAS-R139,R_IR09954,protein degradation (Mpn),fit_set,one-of-many,R-BIOMASS-MECH
+GAS-R140,R_PROt2r,L proline reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R141,R_EX_gua_e,Guanine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R142,R_LYSabc,L-lysine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R143,R_GLUt2r,L glutamate transport via proton symport reversible,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R144,R_ASNt2r,L-asparagine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R145,R_EX_rib__D_e,D-Ribose exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R146,R_LYSTRS,Lysyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R147,R_EX_fol_e,Folate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R148,R_MANpts,D-mannose transport via PEP:Pyr PTS,own_species-explicit,identified,R-GPR
+GAS-R149,R_BPNT,"3',5'-bisphosphate nucleotidase",fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R150,R_FMNAT,FMN adenylyltransferase,own_species-explicit,identified,R-GPR
+GAS-R151,R_TYRTRS,Tyrosyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R152,R_EX_thm_e,Thiamin exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R153,R_DCYTt2,Deoxycytidine transport in via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R154,R_GLYt2r,Glycine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R155,R_HISabc,L-histidine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R156,R_ILETRS,Isoleucyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R157,R_IR09773,Ascorbate PTS,own_species-explicit,identified,R-GPR
+GAS-R158,R_FRUpts,D-fructose transport via PEP:Pyr PTS,own_species-explicit,identified,R-GPR
+GAS-R159,R_IR09863,DNA methylierung (Mpn),own_species-explicit,identified,R-GPR
+GAS-R160,R_ALKP,Alkaline phosphatase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R161,R_ACPpds,[acyl-carrier-protein] phosphodiesterase,own_species-explicit,identified,R-GPR
+GAS-R162,R_IR09884,RNA synthesis (Mpn),own_species-explicit,identified,R-GPR
+GAS-R163,R_THRabc,L-threonine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R164,R_IR09958,TYRabc,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R165,R_CHOLK,Choline kinase,own_species-explicit,identified,R-GPR
+GAS-R166,R_GLYTRS,Glycyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R167,R_VALTRS,Valyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R168,R_LACLt,Lactate transport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R169,R_IR09957,TRPabc,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R170,R_ALATRS,Alanyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R171,R_TRPt2r,L-tryptophan reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R172,R_IR00911,DCK1,own_species-explicit,identified,R-GPR
+GAS-R173,R_HCYSte,Homocysteine transport (extracellular),fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R174,R_EX_glc__D_e,D-Glucose exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R175,R_GLNTRAT,GLNTRAT,own_species-explicit,identified,R-GPR
+GAS-R176,R_METTRS,Methionyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R177,R_GLUTRS,Glutamyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R178,R_IR08984,atp consumption proxy,fit_set,one-of-many,R-BIOMASS-MECH
+GAS-R179,R_IR00674,ATP:D-ribose-5-phosphate diphosphotransferase,own_species-explicit,identified,R-GPR
+GAS-R180,R_LEUabc,L-leucine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R181,R_IR08659,L-asparagine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R182,R_PIabc,Phosphate transport via ABC system,own_species-explicit,identified,R-GPR
+GAS-R183,R_FTHFLi,Formate-tetrahydrofolate ligase,own_species-explicit,identified,R-GPR
+GAS-R184,R_ALAt2r,L alanine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R185,R_IR09961,GroEL catalyzed protein folding (Mpn),own_species-explicit,identified,R-GPR
+GAS-R186,R_IR08738,L-glutamine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R187,R_GLNt2r,L glutamine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R188,R_EX_ura_e,Uracil exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R189,R_IR08208,MTHFC_5,own_species-explicit,identified,R-GPR
+GAS-R190,R_EX_o2_e,O2 exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R191,R_PYK4bis,Pyruvate kinase(4)bis,own_species-explicit,identified,R-GPR
+GAS-R192,R_APNPT,ATP:pantetheine 4'-phosphotransferase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R193,R_IR03511,Deamino-NAD+:ammonia ligase (AMP-forming),own_species-explicit,identified,R-GPR
+GAS-R194,R_PHETRS,Phenylalanyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R195,R_AGPOP,"DGTP:pyruvate 2-O-phosphotransferase, Cytosol",own_species-explicit,identified,R-GPR
+GAS-R196,R_EX_nadp_e,NADP exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R197,R_IR01054,Cytidine aminohydrolase,own_species-explicit,identified,R-GPR
+GAS-R198,R_IR09818,riboflavin transporter,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R199,R_CYSt2r,L cysteine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R200,R_RNDR2,Ribonucleoside-diphosphate reductase (GDP),own_species-explicit,identified,R-GPR
+GAS-R201,R_IR09816,pantetheine transporter,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R202,R_MNLpts,Mannitol transport via PEP:Pyr PTS,own_species-explicit,identified,R-GPR
+GAS-R203,R_SERt2r,L serine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R204,R_EX_ribflv_e,Riboflavin exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R205,R_METAT,Methionine adenosyltransferase,own_species-explicit,identified,R-GPR
+GAS-R206,R_NACt,Nicotinic acid transport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R207,R_EX_glyc_e,Glycerol exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R208,R_EX_hcys__L_e,L-homocysteine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R209,R_NADK,NAD kinase,own_species-explicit,identified,R-GPR
+GAS-R210,R_PYK2,Pyruvate kinase(2),own_species-explicit,identified,R-GPR
+GAS-R211,R_IR09881,doubling energy mpn,fit_set,one-of-many,R-BIOMASS-MECH
+GAS-R212,R_IR00676,ATP:D-ribose 5-phosphotransferase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R213,R_EX_ptth_e,Pantetheine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R214,R_EX_mnl_e,D-Mannitol exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R215,R_IR09959,PHEabc,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R216,R_ALAabc,L-alanine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R217,R_GLUTRS_Gln,GLUTRS Gln,own_species-explicit,identified,R-GPR
+GAS-R218,R_ILEabc,L-isoleucine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R219,R_METabc,L-methionine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R220,R_TMPK,Thiamine-phosphate kinase,own_species-explicit,identified,R-GPR
+GAS-R221,R_EX_thym_e,Thymine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R222,R_URIK1,Uridine kinase ATPUridine,own_species-explicit,identified,R-GPR
+GAS-R223,R_RNase,RNA  ation (3'-5' exoribonuclease),fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R224,R_SERTRS,Seryl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R225,R_NTD5,5'-nucleotidase (dTMP),fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R226,R_EX_glyc3p_e,Glycerol 3-phosphate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R227,R_EX_man_e,D-Mannose exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R228,R_IR09909,Protein synthesis  (Mpn),fit_set,one-of-many,R-BIOMASS-MECH
+GAS-R229,R_TMK,Thiamine kinase,fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R230,R_GLUabc,L-glutamate transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R231,R_DRPA,Deoxyribose-phosphate aldolase,own_species-explicit,identified,R-GPR
+GAS-R232,R_IR09861,DNA synthesis (Mpn),own_species-explicit,identified,R-GPR
+GAS-R233,R_RNDR3,Ribonucleoside-diphosphate reductase (CDP),own_species-explicit,identified,R-GPR
+GAS-R234,R_RBFK,Riboflavin kinase,own_species-explicit,identified,R-GPR
+GAS-R235,R_IR09955,biomass production (Mpn),fit_set,one-of-many,R-BIOMASS-MECH
+GAS-R236,R_LYSt2r,L lysine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R237,R_VALabc,L-valine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R238,R_CYSTRS,Cysteinyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R239,R_VALt2r,L valine reversible transport via proton symport,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R240,R_ARGabc,L-arginine transport via ABC system,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R241,R_PPA,Inorganic diphosphatase,own_species-explicit,identified,R-GPR
+GAS-R242,R_TMDK1,Thymidine kinase (ATP:thymidine),own_species-explicit,identified,R-GPR
+GAS-R243,R_ARGTRS,Arginyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R244,R_EX_ac_e,Acetate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R245,R_NTD3,5'-nucleotidase (dCMP),fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R246,R_GLCpts,D-glucose transport via PEP:Pyr PTS,own_species-explicit,identified,R-GPR
+GAS-R247,R_IR09912,glutaminyl-tRNA synthetase (Asp),own_species-explicit,identified,R-GPR
+GAS-R248,R_IR09793,Pyruvate kinase(6),own_species-explicit,identified,R-GPR
+GAS-R249,R_HISTRS,Histidyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R250,R_NTD1,5'-nucleotidase (dUMP),fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R251,R_GLYC3Pabc,Sn-Glycerol 3-phosphate transport via ABC system,own_species-explicit,identified,R-GPR
+GAS-R252,R_IR00075,NADH kinase,own_species-explicit,identified,R-GPR
+GAS-R253,R_GLYabc,Glycine transport via ABC system,own_species-explicit,identified,R-GPR
+GAS-R254,R_GUAt2r,Guanine reversible transport via proton symport,own_species-explicit,identified,R-GPR
+GAS-R255,R_NTD2,5'-nucleotidase (UMP),own_species-explicit,identified,R-GPR
+GAS-R256,R_TYRt2r,L-tyrosine reversible transport via proton symport,own_species-explicit,identified,R-GPR
+GAS-R257,R_dna5mtct2r,methylated dna exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R258,R_EX_dna5mtc_e,5mcDNA exchange (Mpn),fit_set,one-of-many,R-SINKSOURCE
+GAS-R259,R_ACPSYN,"Acyl-carrier protein synthase, proxy",own_species-explicit,identified,R-GPR
+GAS-R260,R_PFK,Phosphofructokinase,own_species-explicit,identified,R-GPR
+GAS-R261,R_PROTRS,Prolyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R262,R_ARGt2r,L arganine reversible transport via proton symport,own_species-explicit,identified,R-GPR
+GAS-R263,R_DAPOP,dATP:pyruvate 2-O-phosphotransferase,own_species-explicit,identified,R-GPR
+GAS-R264,R_EX_h2o2_e,Hydrogen peroxide exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R265,R_IR09855,Thymine t2,own_species-explicit,identified,R-GPR
+GAS-R266,R_ASPTRS,Aspartyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R267,R_EX_dcyt_e,Deoxycytidine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R268,R_LEUt2r,L-leucine reversible transport via proton symport,own_species-explicit,identified,R-GPR
+GAS-R269,R_EX_lac__L_e,L-lactate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R270,R_NTD4,5'-nucleotidase (CMP),own_species-explicit,identified,R-GPR
+GAS-R271,R_TRPTRS,Tryptophanyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R272,R_NTD9,5'-nucleotidase (GMP),own_species-explicit,identified,R-GPR
+GAS-R273,R_CYTDK1,CYTDK1,own_species-explicit,identified,R-GPR
+GAS-R274,R_THMabc,Thiamine transport via ABC system,own_species-explicit,identified,R-GPR
+GAS-R275,R_KG6PDC,3-keto-L-gulonate 6-phosphate decarboxylase,own_species-explicit,identified,R-GPR
+GAS-R276,R_IR09888,Acetate export (Mpn),fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R277,R_EX_nac_e,Nicotinate exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R278,R_FTHFCL,5 Formyltetrahydrofolate cyclo-ligase,own_species-explicit,identified,R-GPR
+GAS-R279,R_CHLPCTD,Choline phosphate cytididyltransferase,own_species-explicit,identified,R-GPR
+GAS-R280,R_PROabc,L-proline transport via ABC system,own_species-explicit,identified,R-GPR
+GAS-R281,R_EX_orn__L_e,Ornithine exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R282,R_THRTRS,Threonyl-tRNA synthetase,own_species-explicit,identified,R-GPR
+GAS-R283,R_IR09927,MET2t (R),own_species-explicit,identified,R-GPR
+GAS-R284,R_IR09817,pyridoxal transporter,own_species-explicit,identified,R-GPR
+GAS-R285,R_THRt2r,L threonine reversible transport via proton symport,own_species-explicit,identified,R-GPR
+GAS-R286,R_IR01418,Deoxycytidine aminohydrolase,own_species-explicit,identified,R-GPR
+GAS-R287,R_DURIK1,Deoxyuridine kinase (ATP:Deoxyuridine),own_species-explicit,identified,R-GPR
+GAS-R288,R_DPCOAK,Dephospho-CoA kinase,own_species-explicit,identified,R-GPR
+GAS-R289,R_FMETTRS,Methionyl-tRNA formyltransferase,own_species-explicit,identified,R-GPR
+GAS-R290,R_FBA2,D Fructose 1 phosphate D glyceraldehyde 3 phosphate lyase,own_species-explicit,identified,R-GPR
+GAS-R291,R_EX_fru_e,D-Fructose exchange,fit_set,one-of-many,R-SINKSOURCE
+GAS-R292,R_NTD7,5'-nucleotidase (AMP),fit_set,one-of-many,R-ENZYME-NOGPR
+GAS-R293,R_IR00296,L-Arginine iminohydrolase,own_species-explicit,identified,R-GPR
+GAS-R294,R_REM_acp,removal of acp,fit_set,one-of-many,R-BIOMASS-MECH
+GAS-R295,R_ADK3,,own_species-explicit,identified,R-GPR
+GAS-R296,R_ADK4,,own_species-explicit,identified,R-GPR
+GAS-R297,R_atpppphyd,,own_species-explicit,identified,R-GPR
+GAS-R298,R_CA2abc,,own_species-explicit,identified,R-GPR
+GAS-R299,R_CLt,,own_species-explicit,identified,R-GPR
+GAS-R300,R_Coabc,,own_species-explicit,identified,R-GPR
+GAS-R301,R_COAt,,own_species-explicit,identified,R-GPR
+GAS-R302,R_EX_coa_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R303,R_ctpppphyd,,own_species-explicit,identified,R-GPR
+GAS-R304,R_Cuabc,,own_species-explicit,identified,R-GPR
+GAS-R305,R_FMETDF,,own_species-explicit,identified,R-GPR
+GAS-R306,R_FMNRx2,,own_species-explicit,identified,R-GPR
+GAS-R307,R_GLCabc,,own_species-explicit,identified,R-GPR
+GAS-R308,R_GLUN,,own_species-explicit,identified,R-GPR
+GAS-R309,R_GTPH2,,own_species-explicit,identified,R-GPR
+GAS-R310,R_HCO3E,,unattributed,,R-UNSET
+GAS-R311,R_lysdnt,,own_species-explicit,identified,R-GPR
+GAS-R312,R_Kt2r,,own_species-explicit,identified,R-GPR
+GAS-R313,R_CE2102lys,,own_species-explicit,identified,R-GPR
+GAS-R314,R_MG2abc,,own_species-explicit,identified,R-GPR
+GAS-R315,R_Mnabc,,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R316,R_MNNAD,,unattributed,,R-UNSET
+GAS-R317,R_MOBDabc,,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R318,R_nadkpppiPT,,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R319,R_NA1Htm,,fit_set,one-of-many,R-TRANSPORT-GAP
+GAS-R320,R_NH3c,,unattributed,,R-UNSET
+GAS-R321,R_NH4tex,,own_species-explicit,identified,R-GPR
+GAS-R322,R_Niabc,,own_species-explicit,identified,R-GPR
+GAS-R323,R_orncbTx,,own_species-explicit,identified,R-GPR
+GAS-R324,R_pfk_dATP,,own_species-explicit,identified,R-GPR
+GAS-R325,R_pfk_GTP,,own_species-explicit,identified,R-GPR
+GAS-R326,R_pfk_ITP,,own_species-explicit,identified,R-GPR
+GAS-R327,R_r0191,,own_species-explicit,identified,R-GPR
+GAS-R328,R_IDPh,,own_species-explicit,identified,R-GPR
+GAS-R329,R_PSP,,own_species-explicit,identified,R-GPR
+GAS-R330,R_thrpPS,,own_species-explicit,identified,R-GPR
+GAS-R331,R_PTRCabc,,own_species-explicit,identified,R-GPR
+GAS-R332,R_TYRP,,own_species-explicit,identified,R-GPR
+GAS-R333,R_PYK8,,own_species-explicit,identified,R-GPR
+GAS-R334,R_PYK5,,own_species-explicit,identified,R-GPR
+GAS-R335,R_GDPDPK,,own_species-explicit,identified,R-GPR
+GAS-R336,R_GTPDPK,,own_species-explicit,identified,R-GPR
+GAS-R337,R_RIBabc,,own_species-explicit,identified,R-GPR
+GAS-R338,R_RIBFLVtm,,own_species-explicit,identified,R-GPR
+GAS-R339,R_glyc1ppTx,,own_species-explicit,identified,R-GPR
+GAS-R340,R_SULabc,,own_species-explicit,identified,R-GPR
+GAS-R341,R_EX_so4_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R342,R_SPMDabc,,own_species-explicit,identified,R-GPR
+GAS-R343,R_EX_spmd_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R344,R_thronh2adsyn,,own_species-explicit,identified,R-GPR
+GAS-R345,R_utph2,,own_species-explicit,identified,R-GPR
+GAS-R346,R_ZNabc,,own_species-explicit,identified,R-GPR
+GAS-R347,R_EX_zn2_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R348,R_EX_ca2,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R349,R_EX_cl,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R350,R_EX_cobalt2,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R351,R_EX_cu2,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R352,R_EX_lysdn,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R353,R_EX_k,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R354,R_EX_mg2,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R355,R_EX_mn2,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R356,R_EX_mobd,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R357,R_EX_na1,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R358,R_EX_ni2,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R359,R_EX_psuri,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R360,R_EX_ptrc,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R361,R_Aas160,,own_species-explicit,identified,R-GPR
+GAS-R362,R_Aas161,,own_species-explicit,identified,R-GPR
+GAS-R363,R_Aas180,,own_species-explicit,identified,R-GPR
+GAS-R364,R_Aas181,,own_species-explicit,identified,R-GPR
+GAS-R365,R_Aas182,,own_species-explicit,identified,R-GPR
+GAS-R366,R_Aas183,,own_species-explicit,identified,R-GPR
+GAS-R367,R_ag3pa160,,own_species-explicit,identified,R-GPR
+GAS-R368,R_ag3pa161,,own_species-explicit,identified,R-GPR
+GAS-R369,R_ag3pa180,,own_species-explicit,identified,R-GPR
+GAS-R370,R_ag3pa181,,own_species-explicit,identified,R-GPR
+GAS-R371,R_ag3pa182,,own_species-explicit,identified,R-GPR
+GAS-R372,R_ag3pa183,,own_species-explicit,identified,R-GPR
+GAS-R373,R_HDCAt,,own_species-explicit,identified,R-GPR
+GAS-R374,R_HDCEAt,,own_species-explicit,identified,R-GPR
+GAS-R375,R_OCDCAt,,own_species-explicit,identified,R-GPR
+GAS-R376,R_OCDCEAt,,own_species-explicit,identified,R-GPR
+GAS-R377,R_LNELDCt,,own_species-explicit,identified,R-GPR
+GAS-R378,R_LNLNCGt,,own_species-explicit,identified,R-GPR
+GAS-R379,R_mgdg160syn,,own_species-explicit,identified,R-GPR
+GAS-R380,R_dgdg160syn,,own_species-explicit,identified,R-GPR
+GAS-R381,R_3glc12dgr160syn,,own_species-explicit,identified,R-GPR
+GAS-R382,R_3glcgal12dgr160syn,,own_species-explicit,identified,R-GPR
+GAS-R383,R_3glc2gal12dgr160syn,,own_species-explicit,identified,R-GPR
+GAS-R384,R_3glc3gal12dgr160syn,,own_species-explicit,identified,R-GPR
+GAS-R385,R_mgdg161syn,,own_species-explicit,identified,R-GPR
+GAS-R386,R_dgdg161syn,,own_species-explicit,identified,R-GPR
+GAS-R387,R_3glc12dgr161syn,,own_species-explicit,identified,R-GPR
+GAS-R388,R_3glcgal12dgr161syn,,own_species-explicit,identified,R-GPR
+GAS-R389,R_3glc2gal12dgr161syn,,own_species-explicit,identified,R-GPR
+GAS-R390,R_3glc3gal12dgr161syn,,own_species-explicit,identified,R-GPR
+GAS-R391,R_mgdg180syn,,own_species-explicit,identified,R-GPR
+GAS-R392,R_2glc12dgr180syn,,own_species-explicit,identified,R-GPR
+GAS-R393,R_3glc12dgr180syn,,own_species-explicit,identified,R-GPR
+GAS-R394,R_3glcgal12dgr180syn,,own_species-explicit,identified,R-GPR
+GAS-R395,R_3glc2gal12dgr180syn,,own_species-explicit,identified,R-GPR
+GAS-R396,R_3glc3gal12dgr180syn,,own_species-explicit,identified,R-GPR
+GAS-R397,R_mgdg181_9syn,,own_species-explicit,identified,R-GPR
+GAS-R398,R_2glc12dgr181syn,,own_species-explicit,identified,R-GPR
+GAS-R399,R_3glc12dgr181syn,,fit_set,one-of-many,R-BIOMASS-MECH
+GAS-R400,R_3glcgal12dgr181syn,,own_species-explicit,identified,R-GPR
+GAS-R401,R_3glc2gal12dgr181syn,,own_species-explicit,identified,R-GPR
+GAS-R402,R_3glc3gal12dgr181syn,,own_species-explicit,identified,R-GPR
+GAS-R403,R_mgdg182_9_12syn,,own_species-explicit,identified,R-GPR
+GAS-R404,R_2glc12dgr182syn,,own_species-explicit,identified,R-GPR
+GAS-R405,R_3glc12dgr182syn,,own_species-explicit,identified,R-GPR
+GAS-R406,R_3glcgal12dgr182syn,,own_species-explicit,identified,R-GPR
+GAS-R407,R_3glc2gal12dgr182syn,,own_species-explicit,identified,R-GPR
+GAS-R408,R_3glc3gal12dgr182syn,,own_species-explicit,identified,R-GPR
+GAS-R409,R_mgdg183_6_9_12syn,,own_species-explicit,identified,R-GPR
+GAS-R410,R_dgdg205n31619Zsyn,,own_species-explicit,identified,R-GPR
+GAS-R411,R_3glc12dgr183syn,,own_species-explicit,identified,R-GPR
+GAS-R412,R_3glcgal12dgr183syn,,own_species-explicit,identified,R-GPR
+GAS-R413,R_3glc2gal12dgr183syn,,own_species-explicit,identified,R-GPR
+GAS-R414,R_3glc3gal12dgr183syn,,own_species-explicit,identified,R-GPR
+GAS-R415,R_1hdecg3psyn,,own_species-explicit,identified,R-GPR
+GAS-R416,R_1hdec9eg3psyn,,own_species-explicit,identified,R-GPR
+GAS-R417,R_1odecg3psyn,,own_species-explicit,identified,R-GPR
+GAS-R418,R_1odec9eg3psyn,,own_species-explicit,identified,R-GPR
+GAS-R419,R_mag182n6syn,,own_species-explicit,identified,R-GPR
+GAS-R420,R_mag183syn,,own_species-explicit,identified,R-GPR
+GAS-R421,R_pa160ctdlTx,,own_species-explicit,identified,R-GPR
+GAS-R422,R_pa161ctdlTx,,own_species-explicit,identified,R-GPR
+GAS-R423,R_pa180ctdlTx,,own_species-explicit,identified,R-GPR
+GAS-R424,R_pa181_9ctdlTx,,own_species-explicit,identified,R-GPR
+GAS-R425,R_pa182_9_12ctdlTx,,own_species-explicit,identified,R-GPR
+GAS-R426,R_pa_18_3_18_3ctdlTx,,own_species-explicit,identified,R-GPR
+GAS-R427,R_pc160abc,,own_species-explicit,identified,R-GPR
+GAS-R428,R_pc161abc,,own_species-explicit,identified,R-GPR
+GAS-R429,R_pc180abc,,own_species-explicit,identified,R-GPR
+GAS-R430,R_pc181_9abc,,own_species-explicit,identified,R-GPR
+GAS-R431,R_pc182_9_12abc,,own_species-explicit,identified,R-GPR
+GAS-R432,R_pc183abc,,own_species-explicit,identified,R-GPR
+GAS-R433,R_PGPP160,,own_species-explicit,identified,R-GPR
+GAS-R434,R_PGPP161,,own_species-explicit,identified,R-GPR
+GAS-R435,R_PGPP180,,own_species-explicit,identified,R-GPR
+GAS-R436,R_PGPP181_9,,own_species-explicit,identified,R-GPR
+GAS-R437,R_PGPP182_9_12,,own_species-explicit,identified,R-GPR
+GAS-R438,R_PGPP183_6_9_12,,own_species-explicit,identified,R-GPR
+GAS-R439,R_PGPSALMALM,,own_species-explicit,identified,R-GPR
+GAS-R440,R_PGSA161,,own_species-explicit,identified,R-GPR
+GAS-R441,R_PGSA180,,own_species-explicit,identified,R-GPR
+GAS-R442,R_PGSA181_9,,own_species-explicit,identified,R-GPR
+GAS-R443,R_PGSA182_9_12,,own_species-explicit,identified,R-GPR
+GAS-R444,R_PGSA183_6_9_12,,own_species-explicit,identified,R-GPR
+GAS-R445,R_pc160lys,,own_species-explicit,identified,R-GPR
+GAS-R446,R_pc161lys,,own_species-explicit,identified,R-GPR
+GAS-R447,R_pc180lys,,own_species-explicit,identified,R-GPR
+GAS-R448,R_pc181_9lys,,own_species-explicit,identified,R-GPR
+GAS-R449,R_pc182_9_12lys,,own_species-explicit,identified,R-GPR
+GAS-R450,R_pc183_9_12_15lys,,own_species-explicit,identified,R-GPR
+GAS-R451,R_PAPA160,,own_species-explicit,identified,R-GPR
+GAS-R452,R_PAPA161,,own_species-explicit,identified,R-GPR
+GAS-R453,R_PAPA180,,own_species-explicit,identified,R-GPR
+GAS-R454,R_PAPA181_9,,own_species-explicit,identified,R-GPR
+GAS-R455,R_PAPA182_9_12,,own_species-explicit,identified,R-GPR
+GAS-R456,R_PAPA183_6_9_12,,own_species-explicit,identified,R-GPR
+GAS-R457,R_EX_sphng160_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R458,R_EX_sphng161_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R459,R_EX_sphng180_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R460,R_EX_sphng181_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R461,R_EX_sphng182_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R462,R_EX_sphng200_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R463,R_EX_sphng240_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R464,R_EX_clpn181_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R465,R_EX_clpn182_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R466,R_EX_clpn183_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R467,R_clpn181t,,own_species-explicit,identified,R-GPR
+GAS-R468,R_clpn182t,,own_species-explicit,identified,R-GPR
+GAS-R469,R_clpn183t,,own_species-explicit,identified,R-GPR
+GAS-R470,R_sphng160t,,own_species-explicit,identified,R-GPR
+GAS-R471,R_sphng161t,,own_species-explicit,identified,R-GPR
+GAS-R472,R_sphng180t,,own_species-explicit,identified,R-GPR
+GAS-R473,R_sphng181t,,own_species-explicit,identified,R-GPR
+GAS-R474,R_sphng182t,,own_species-explicit,identified,R-GPR
+GAS-R475,R_sphng200t,,own_species-explicit,identified,R-GPR
+GAS-R476,R_sphng240t,,own_species-explicit,identified,R-GPR
+GAS-R477,R_EX_hdca_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R478,R_EX_hdcea_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R479,R_EX_ocdca_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R480,R_EX_ocdcea_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R481,R_EX_lneldc_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R482,R_EX_lnlncg_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R483,R_EX_pc160_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R484,R_EX_pc161_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R485,R_EX_pc180_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R486,R_EX_pc181_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R487,R_EX_pc182_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R488,R_EX_pc183_e,,fit_set,one-of-many,R-SINKSOURCE
+GAS-R489,R_protonLeak,,fit_set,one-of-many,R-TRANSPORT-GAP
