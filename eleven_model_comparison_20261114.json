@@ -1,0 +1,401 @@
+{
+ "table_id": "eleven_model_comparison",
+ "produced_at": "2026-11-14",
+ "E8_freeze_note": "六模型口径随 E8 投稿冻结（supplementary_data.zip supplementary）——本档案为主链第七扩展（逻辑模型类型延拓首入），不动投稿对照表",
+ "granularity_note": "第七模型为组件级（component）判定单位——与逐参数/逐反应/模型级并排呈现时以 granularity 字段区分（v1.4 schema 原生支持；E4 判定单位适配定理的档案化）",
+ "models_six_frozen": [
+  {
+   "model": "Karr 2012 全细胞模型",
+   "scale": "单细胞（M. genitalium 全细胞）",
+   "audit_granularity": "逐参数",
+   "n_judged": 154,
+   "uniqueness_dist": {
+    "identified": 90,
+    "non-identified": 28,
+    "one-of-many": 36
+   },
+   "uniqueness_pct": {
+    "identified": 58.4,
+    "one-of-many": 23.4,
+    "non-identified": 18.2,
+    "None": 0.0
+   },
+   "gap_morphology": "物种错配（实验约束借自他物种，组件自称自身的）",
+   "declaration_strength": "数字化参数表随论文公开（Data S3 全表）"
+  },
+  {
+   "model": "E-Cell 1999 假想细胞",
+   "scale": "单细胞（假想细胞，127 基因）",
+   "audit_granularity": "模型级",
+   "n_judged": 3,
+   "uniqueness_dist": {
+    "identified": 1,
+    "one-of-many": 2
+   },
+   "uniqueness_pct": {
+    "identified": 33.3,
+    "one-of-many": 66.7,
+    "non-identified": 0.0,
+    "None": 0.0
+   },
+   "gap_morphology": "定义消解（参数本质为建模假设，租约在定义层面失效）",
+   "declaration_strength": "正文自认 many are unknown...by estimations"
+  },
+  {
+   "model": "BAAIWorm 2024",
+   "scale": "整体生物体（线虫 302 神经元，9,188 电导参数槽）",
+   "audit_granularity": "模型级按层",
+   "n_judged": 3,
+   "uniqueness_dist": {
+    "identified": 1,
+    "one-of-many": 1,
+    "non-identified": 1
+   },
+   "uniqueness_pct": {
+    "identified": 33.3,
+    "one-of-many": 33.3,
+    "non-identified": 33.3,
+    "None": 0.0
+   },
+   "gap_morphology": "不可辨识性（作者自承 one of the possible solutions）",
+   "declaration_strength": "data-driven 声明居中；结构层实验真实/电导层优化产出/环境层编译固化"
+  },
+  {
+   "model": "O'Hara-Rudy 2011（CiPA 变体）",
+   "scale": "单细胞（人心室肌细胞电生理）",
+   "audit_granularity": "逐参数",
+   "n_judged": 262,
+   "uniqueness_dist": {
+    "identified": 130,
+    "None": 47,
+    "one-of-many": 85
+   },
+   "uniqueness_pct": {
+    "identified": 49.6,
+    "one-of-many": 32.4,
+    "non-identified": 0.0,
+    "None": 17.9
+   },
+   "gap_morphology": "数字化轨迹拟合（从发表图提取再拟合的半手工形态）",
+   "declaration_strength": "逐电流来源段+温度条件+专门新记录（声明强度最高）"
+  },
+  {
+   "model": "Wodke 2013 iJW145（M. pneumoniae）",
+   "scale": "单细胞（M. pneumoniae 能量代谢，306 反应/145 基因）",
+   "audit_granularity": "逐反应",
+   "n_judged": 306,
+   "uniqueness_dist": {
+    "identified": 156,
+    "one-of-many": 150
+   },
+   "gap_morphology": "缺口填充（Missing transport reactions added+拟合约束+可逆性定义）",
+   "declaration_strength": "迭代循环显式声明（预测-假设-实验-精化）+倍增时间预测缺口自承",
+   "uniqueness_pct": {
+    "identified": 51.0,
+    "one-of-many": 49.0,
+    "non-identified": 0.0,
+    "None": 0.0
+   }
+  },
+  {
+   "model": "Gaspari 2020 iEG158_mpn（M. pneumoniae）",
+   "scale": "单细胞（M. pneumoniae 血清无培养基，489 反应）",
+   "audit_granularity": "逐反应",
+   "n_judged": 489,
+   "uniqueness_dist": {
+    "identified": 307,
+    "one-of-many": 179
+   },
+   "uniqueness_pct": {
+    "identified": 62.8,
+    "one-of-many": 36.6,
+    "non-identified": 0.0,
+    "None": 0.6
+   },
+   "gap_morphology": "缺口填充+酶名无 GPR 假设（血清适配扩展 +183 反应中 82.5% 为 GPR 锚定）",
+   "declaration_strength": "代际扩展（iJW145→iEG158 血清适配）+迭代循环显式"
+  }
+ ],
+ "model_seven": {
+  "model": "Saez-Rodriguez 2007 T 细胞逻辑模型",
+  "scale": "94 节点 / 123 连接（Boolean，DNF 表示）",
+  "audit_granularity": "component（组件级——判定单位适配首例，E4 主张检验产物）",
+  "n_judged": 5,
+  "uniqueness_dist": {
+   "identified": 1,
+   "one-of-many": 4,
+   "non-identified": 0
+  },
+  "uniqueness_pct": {
+   "identified": 20.0,
+   "one-of-many": 80.0,
+   "non-identified": 0.0
+  },
+  "gap_morphology": "建模框架选择（逻辑 vs 动力学，数据匮乏驱动）+逻辑函数表示形式（DNF）+离散化粒度（binary simplest）+受体聚焦范围——全部为构造缝隙（one-of-many 组）；网络拓扑为文献锚定 identified",
+  "declaration_strength": "作者显式声明强（\"we use a special representation\"/\"here the simplest (binary) case\"/\"we chose to focus\"——三处自标构造决策）",
+  "source_note": "judgements 从 E4_租约三态全域适用_判定_20261114.json 组件级审计直接复用（E9 晋级）",
+  "evidence_units": [
+   {
+    "unit": "J1 网络拓扑（94 节点/123 连接）",
+    "uniqueness": "identified",
+    "evidence": "based upon well-established qualitative knowledge from primary T cells；documented in a detailed manner in Tables S1 and S2（连接级文献锚定+人工 curation）"
+   },
+   {
+    "unit": "J2 逻辑函数表示形式（DNF）",
+    "uniqueness": "one-of-many",
+    "evidence": "Here we use a special representation of Boolean functions known as disjunctive normal form (DNF)...well-suited for studying information flows——表示形式选择动机=可视化与存储便利（构造决策）"
+   },
+   {
+    "unit": "J3 状态离散化粒度（binary 0/1）",
+    "uniqueness": "one-of-many",
+    "evidence": "here the simplest (binary) case: 0 = inactive or not present; 1 = active or present——作者自标 simplest=解空间最简选择"
+   },
+   {
+    "unit": "J4 受体聚焦范围",
+    "uniqueness": "one-of-many",
+    "evidence": "we chose to focus on a limited number of receptors that are known to be central——范围选择构造"
+   },
+   {
+    "unit": "J5 建模框架选择（逻辑 vs 动力学）",
+    "uniqueness": "one-of-many",
+    "evidence": "kinetic parameters and quantitative data that would allow for dynamic modeling are still scarce. Therefore...logical modeling——数据匮乏驱动的框架构造（连续动力学在当前数据下不可辨识）"
+   }
+  ]
+ },
+ "cross_seven_readings": {
+  "construction_share_gradient": "one-of-many 占比梯度：Karr 23.4%（实验锚定）< Wodke 49.0%（半构造）< E-Cell 66.7%（假想细胞）< Saez 80.0%（框架即构造）——构造占比随模型'建模决策承载度'单调上升，逻辑模型的框架本身是最大构造（类型学第七读数：构造占比=建模自由度的直接度量）",
+  "identified_semantics_expansion": "identified 在逻辑模型上=连接级文献锚定（well-established qualitative knowledge）——与 ODE 参数级'唯一可辨识'语义不同层（组件级 identified=来源有据，非参数可辨识）——粒度定律的组件级语义标注",
+  "E4_link": "判定与证据从 E4 组件级审计直接复用（零新审计）——E4 PASS_adaptable 的档案化落地"
+ },
+ "model_eight": {
+  "model": "PhysiCell 2018（agent-based 框架+示例模型族）",
+  "scale": "框架 + 6 个示例模型（HDS/DCIS/biorobots/免疫异质等）",
+  "audit_granularity": "component（组件级——E4 判定直接复用）",
+  "n_judged": 7,
+  "uniqueness_dist": {
+   "identified": 2,
+   "one-of-many": 5,
+   "non-identified": 0
+  },
+  "uniqueness_pct": {
+   "identified": 28.6,
+   "one-of-many": 71.4,
+   "non-identified": 0.0
+  },
+  "gap_morphology": "确定性/随机 necrosis 双变体+氧依赖增殖规则+oncoprotein 异质性缩放+免疫原性建模——全部构造缝隙（one-of-many 组）；BioFVM 微环境求解器与数值时间步长为 identified（复用已验证数值方法组件）",
+  "declaration_strength": "示例模型构造决策显式展示（deterministic vs stochastic 并列报告/oncoprotein bounded [0,2]/modeled as proportional——ABM 框架论文的组件声明风格）",
+  "source_note": "judgements 从 E4 组件级审计直接复用（E9 晋级第八）",
+  "evidence_units": [
+   {
+    "unit": "J1 微环境求解器（BioFVM）",
+    "uniqueness": "identified",
+    "evidence": "采用独立发表并经单独验证的数值方法组件（BioFVM）"
+   },
+   {
+    "unit": "J2 数值时间步长（Δtdiff≈0.1 min 量级）",
+    "uniqueness": "identified",
+    "evidence": "数值稳定性约束决定（求解器收敛要求），非自由选择"
+   },
+   {
+    "unit": "J3 确定性 necrosis 变体",
+    "uniqueness": "one-of-many",
+    "evidence": "论文并列展示 deterministic 与 stochastic 两种 necrosis 模型（HDS/DCIS 示例）——建模变体选择"
+   },
+   {
+    "unit": "J4 随机 necrosis 变体",
+    "uniqueness": "one-of-many",
+    "evidence": "同上——两种变体均为构造选择且结果近似（论文报告两者生长曲线一致）"
+   },
+   {
+    "unit": "J5 氧依赖增殖规则",
+    "uniqueness": "one-of-many",
+    "evidence": "oxygen-based proliferation 规则为模型构造"
+   },
+   {
+    "unit": "J6 oncoprotein 异质性缩放",
+    "uniqueness": "one-of-many",
+    "evidence": "mutant oncoprotein p (dimensionless, bounded in [0, 2]) scales the oxygen-based proliferation——示例模型构造"
+   },
+   {
+    "unit": "J7 免疫原性建模",
+    "uniqueness": "one-of-many",
+    "evidence": "immunogenicity is modeled as proportional to its mutant oncoprotein expression——显式建模假设声明"
+   }
+  ]
+ },
+ "cross_eight_readings": {
+  "construction_share_gradient_eight": "one-of-many 占比梯度（八模型全景，粒度分层读）：逐条级 Karr 23.4% < Wodke 49.0% < E-Cell 66.7%；组件级 PhysiCell 71.4% < Saez 80.0%——同粒度内梯度单调（建模自由度度量），跨粒度不直接比（粒度定律：share 绝对值随判定单位粒度变化，排序语义仅同粒度内可判）",
+  "abm_type_reading": "ABM 框架复用型读数：identified 出现在框架复用组件（BioFVM 已验证求解器+数值稳定性约束的时间步长）而非测量锚定参数——与 ODE 模型的 identified=实验锚定参数形成类型对照（ABM 的 identified=组件复用可信度，ODE 的 identified=测量锚定）",
+  "E4_link": "PhysiCell+Saez 判定与证据均从 E4 组件级审计直接复用（零新审计）——E4 PASS_adaptable 双模型档案化落地"
+ },
+ "schema_version_note": "第九模型（DeepBind NN）采用 schema v1.5 四态口径（第四态 paradigmatic 用户级决策扩展 2026-11-14）——v1.4 三态历史数据不动",
+ "model_nine": {
+  "model": "DeepBind 2015（deep learning CNN——DNA/RNA 结合预测）",
+  "scale": "每转录因子一个 CNN 模型（数百个训练模型族；权重百万级）",
+  "audit_granularity": "component + weight-set（组件五判定+权重整体一条——NN 判定单位适配）",
+  "n_judged": 5,
+  "uniqueness_dist": {
+   "identified": 1,
+   "one-of-many": 2,
+   "paradigmatic": 1,
+   "non-identified": 0
+  },
+  "uniqueness_pct": {
+   "identified": 20.0,
+   "one-of-many": 40.0,
+   "paradigmatic": 20.0,
+   "non-identified": 0.0
+  },
+  "gap_morphology": "输入编码（one-hot 建模选择）+CNN 架构（深度核数池化解空间）+超参数（调参空间）=one-of-many 构造缝隙；训练数据（PBM+HT-SELEX）=identified 实验锚定；weight-set=**paradigmatic（schema v1.5 第四态首例）**——训练范式有意设计非来源债务",
+  "declaration_strength": "深度学习范式声明（随机初始化+训练收敛=权重不可辨识是范式预期——论文不含权重来源语义声明，paradigmatic 判定来自训练范式本身）",
+  "source_note": "五组件判定从 E10 预审 nn_judgment_unit_adaptation 直接复用（四态口径 v1.5）",
+  "evidence_units": [
+   {
+    "unit": "J1 训练数据（PBM+HT-SELEX）",
+    "uniqueness": "identified",
+    "evidence": "公开实验测量数据（PBM 微阵列+HT-SELEX 体外选择）——测量锚定"
+   },
+   {
+    "unit": "J2 输入编码（one-hot 4 通道）",
+    "uniqueness": "one-of-many",
+    "evidence": "编码方式为建模选择（one-hot vs k-mer embedding vs 连续编码解空间）"
+   },
+   {
+    "unit": "J3 CNN 架构（深度/核数/池化）",
+    "uniqueness": "one-of-many",
+    "evidence": "架构选择解空间（深度学习设计自由度）"
+   },
+   {
+    "unit": "J4 超参数（学习率/正则化/轮次）",
+    "uniqueness": "one-of-many",
+    "evidence": "调参空间选择（非凸优化的搜索路径决策）"
+   },
+   {
+    "unit": "J5 weight-set（训练后权重整体）",
+    "uniqueness": "paradigmatic",
+    "evidence": "schema v1.5 第四态首例——随机初始化+非凸训练有意设计：解空间连续巨大但功能等效可复现（确定性输入-输出映射），范式性非来源债务（与 ODE unattributed 的来源债务语义区隔）"
+   }
+  ]
+ },
+ "cross_nine_readings": {
+  "four_state_gradient_nine": "四态全景九模型（粒度分层）：逐参数 Karr 23.4% one-of-many/unattributed 语义（来源债务层）/逐反应 Wodke 49.0%/模型级 E-Cell 66.7%/组件级 PhysiCell 71.4+Saez 80.0（构造自由度层）/weight-set 级 DeepBind paradigmatic（范式性层）——**四态在三域九模型上全部有实例：三态枚举扩展后 v1.5 四态语义完整落地**",
+  "paradigmatic_first_reading": "DeepBind weight-set 为 paradigmatic 首例——NN 权重的不可辨识是**功能等效的确定性映射**（同输入必同输出）而非来源债务——四态语义把'不可辨识'从中性描述升级为机制分层（意外缺失 vs 范式设计 vs 解空间采样）",
+  "E10_link": "五组件判定从 E10 预审 nn_judgment_unit_adaptation 直接复用（预审 PASS→审计档案化）——NN 类型第三延拓首入对照表（主链 8→9）"
+ },
+ "model_ten": {
+  "model": "AlphaFold2 2021（结构预测 transformer——蛋白质结构）",
+  "scale": "Evoformer 48 块+结构模块；CASP14 盲测 GDT_TS 中位 ~92；AlphaFold DB 2 亿结构输出",
+  "audit_granularity": "component + weight-set + audit_metadata（六判定条目：五三态判定+pLDDT 元数据口径首例）",
+  "n_judged": 5,
+  "uniqueness_dist": {
+   "identified": 1,
+   "one-of-many": 2,
+   "paradigmatic": 2,
+   "non-identified": 0
+  },
+  "uniqueness_pct": {
+   "identified": 20.0,
+   "one-of-many": 40.0,
+   "paradigmatic": 40.0,
+   "non-identified": 0.0
+  },
+  "gap_morphology": "MSA 输入构造+CNN... Evoformer 架构=one-of-many 构造缝隙；PDB 训练数据=identified 实验锚定；**自蒸馏数据回灌=paradigmatic 递归首例**（模型产出→再训练→权重更 paradigmatic——训练数据构成混入范式性产物）；weight-set=paradigmatic（与 DeepBind 同构第二例）；pLDDT 置信度输出=audit_metadata 元数据口径首例（不入三态判定列）",
+  "declaration_strength": "置信度自我声明（pLDDT 每残基 0-100）——模型对自身输出的量化不确定性公开（NN 模型自带可判定维度首例的档案化）",
+  "source_note": "六判定单位从 E12 冻结设计直接执行（E11 侦察适配预判的档案化）",
+  "evidence_units": [
+   {
+    "unit": "J1 MSA 输入构造",
+    "uniqueness": "one-of-many",
+    "evidence": "输入构造为建模选择；MSA 深度依赖数据库状态（输入语义随数据库演化——新维度预登记）"
+   },
+   {
+    "unit": "J2 Evoformer 架构",
+    "uniqueness": "one-of-many",
+    "evidence": "架构解空间（Evoformer 48 块+结构模块的设计选择）"
+   },
+   {
+    "unit": "J3 PDB 训练数据",
+    "uniqueness": "identified",
+    "evidence": "实验测量锚定（~17 万实验解析结构）"
+   },
+   {
+    "unit": "J4 自蒸馏数据回灌",
+    "uniqueness": "paradigmatic",
+    "evidence": "递归首例：模型预测的高置信结构再训练——训练数据构成混入范式性产物（模型产出→再训练→权重更 paradigmatic）"
+   },
+   {
+    "unit": "J5 weight-set",
+    "uniqueness": "paradigmatic",
+    "evidence": "随机初始化+端到端训练有意设计（与 DeepBind 同构第二例）"
+   }
+  ],
+  "audit_metadata": {
+   "plddt_confidence": "每残基 0-100 置信度输出（模型自评不确定性）——audit_metadata 口径首例（不入三态判定列：三态限参数/数据来源类条目；pLDDT 是输出元数据不同类——NN 模型自带可判定维度首例的档案化）",
+   "casp14_benchmark": "GDT_TS 中位 ~92 独立实验评审——NN 输出有独立盲测基准首例（与 DeepBind 评估数据即训练数据语义对照）"
+  }
+ },
+ "cross_ten_readings": {
+  "four_state_ten_models": "四态全景十模型（粒度分层）：来源债务层 non-identified（ODE unattributed=146）/构造自由度层 one-of-many（23.4-80.0%梯度）/范式性层 paradigmatic（DeepBind weight-set+AF2 weight-set+AF2 自蒸馏=递归首例）/——**paradigmatic 递归首例把第四态从'静态不可辨识'推进到'递归不可辨识'**（模型产出回灌训练→权重迭代更范式性——第四态的动态结构首次显形）",
+  "metadata_semantics_reading": "pLDDT audit_metadata 口径首例——NN 模型的审计条目从'来源类'扩展到'来源类+输出元数据类'两类：来源类入三态判定列，输出元数据类以 audit_metadata 保留（NN 自带可判定维度=模型对自身不可辨识性的量化自我声明——审计协议 v1.5 的 NN 适配新元素）",
+  "type_distribution_ten": "十模型类型全景：全细胞 ODE×2+FBA×2+ABM×2+逻辑×1+NN 判别×1+NN 结构预测 transformer×1+模型级假想×1——**四类型延拓（ABM/逻辑/NN 判别/NN 结构预测）全部入对照表**（主链 6→10 扩样收官）"
+ },
+ "model_eleven": {
+  "model": "RFdiffusion 2023（生成式扩散——蛋白质骨架 de novo 设计）",
+  "scale": "RoseTTAFold 微调去噪网络；多套 checkpoint（InpaintSeq/InpaintSeq_Fold/基线）",
+  "audit_granularity": "component + weight-set + 混合态拆分（六判定条目：J1 拆分 J1a/J1b+J2-J5——生成式类型首入）",
+  "n_judged": 6,
+  "uniqueness_dist": {
+   "identified": 1,
+   "one-of-many": 3,
+   "paradigmatic": 2,
+   "non-identified": 0
+  },
+  "uniqueness_pct": {
+   "identified": 16.7,
+   "one-of-many": 50.0,
+   "paradigmatic": 33.3,
+   "non-identified": 0.0
+  },
+  "gap_morphology": "扩散架构（RoseTTAFold 微调去噪网络）+噪声调度+条件化模式（motif scaffolding/fold conditioning/inpainting）=one-of-many 构造缝隙；PDB 实验结构子集=identified（文献锚定）；**AF2/RoseTTAFold 预测回灌子集=paradigmatic（混合态拆分首例）**；多套 checkpoint 并存=paradigmatic 多解并存实证解空间连续巨大",
+  "declaration_strength": "生成式范式自明（模型目的=创造未知结构——非预测已知；多 checkpoint 并存即范式性声明的物化形态）",
+  "source_note": "六判定条目从 E12b 冻结设计直接执行（E11 侦察适配预判的档案化）",
+  "evidence_units": [
+   {
+    "unit": "J1a 训练数据 PDB 实验结构子集",
+    "uniqueness": "identified",
+    "evidence": "实验锚定结构（well-established 实验解析）"
+   },
+   {
+    "unit": "J1b 训练数据预测回灌子集",
+    "uniqueness": "paradigmatic",
+    "evidence": "AF2/RoseTTAFold 预测结构回灌训练——基座递归（level_2 范式性产物）"
+   },
+   {
+    "unit": "J2 扩散架构（RoseTTAFold 微调去噪网络）",
+    "uniqueness": "one-of-many",
+    "evidence": "架构解空间（去噪网络设计选择）"
+   },
+   {
+    "unit": "J3 噪声调度与时间步",
+    "uniqueness": "one-of-many",
+    "evidence": "扩散范式超参选择"
+   },
+   {
+    "unit": "J4 条件化模式（motif scaffolding/fold conditioning/inpainting）",
+    "uniqueness": "one-of-many",
+    "evidence": "使用模式选择（生成条件的构造决策）"
+   },
+   {
+    "unit": "J5 多套 weight-set checkpoint",
+    "uniqueness": "paradigmatic",
+    "evidence": "多套 checkpoint 并存恰好实证解空间连续巨大（每套=随机初始化+训练收敛的一个解）+递归深度 level_2 基座递归标注"
+   }
+  ]
+ },
+ "cross_eleven_readings": {
+  "paradigmatic_recursion_depth_typology": "**递归深度三例梯度定版**（paradigmatic metadata 承载）：DeepBind level_0（训练纯净）→AF2 level_1（自蒸馏一层回灌）→RFdiffusion level_2（基座递归——训练基座本身是上一代范式性产物）——第四态从静态不可辨识推进到递归不可辨识后进一步分层（递归深度=距实验锚定的范式代数）",
+  "mixed_state_split_first": "J1 混合态拆分首例——单一判定条目内两态并存（PDB identified+预测回灌 paradigmatic）按数据来源拆分判定：拆分规则=按数据来源性质分解为子条目分别标注（判定单位适配的粒度控制新维度——粒度定律的条目内分层延伸）",
+  "generative_type_first": "生成式模型类型首入主链（DeepBind 判别/AF2 预测之后第三种 NN 范式：目的=创造未知非预测已知——三范式 paradigmatic 语义梯度：判别训练纯净→预测自蒸馏回灌→生成式基座递归+多解并存）",
+  "four_state_eleven_models": "四态全景十一模型（粒度分层）：来源债务层 non-identified（ODE unattributed=146）/构造自由度层 one-of-many（23.4-80.0% 梯度含 RFdiffusion 50.0%）/范式性层 paradigmatic（DeepBind+AF2×2+RFdiffusion，递归深度 0/1/2 三例梯度）——**四态语义在十一模型上全部有实例且 paradigmatic 递归深度谱系完整（0/1/2 三级）**"
+ }
+}
