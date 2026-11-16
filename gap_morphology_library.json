@@ -28,7 +28,7 @@
    "first_model": "O'Hara-Rudy 2011",
    "criteria": "正文 digitized trace fitting 声明",
    "count": 1,
-   "count_note": "ORd 电流级 ORD-Ito-tau（逐参数级机械规则未单独标记——判定需语义读正文）",
+   "count_note": "ORd 电流级 ORD-Ito-tau（逐参数级机械规则未单独标记——判定需语义读正文）；2026-11-16 逐参数语义扫描完成（ORd 全文 15 模式 27 上下文人工判读）——计数维持 1 无漏标，F3 家族候选 5 构造决策点副产品",
    "uniqueness": "one-of-many（拟合产物）"
   },
   {
@@ -94,7 +94,7 @@
    "first_model": "Wodke 2013",
    "criteria": "预测值与实测值数量级偏离+作者显式声明",
    "count": 1,
-   "count_note": "Wodke 倍增时间（模拟 2.3-3.8h vs 实测 19.7-59.7h）",
+   "count_note": "Wodke 倍增时间（模拟 2.3-3.8h vs 实测 19.7-59.7h）；2026-11-16 第二例侦察完成：ORd/Karr/Gaspari/BAAIWorm 四模型冻结模式零命中（Tomita 付费墙阻塞）——单例性确认，D 类依赖作者声明不可机械普查",
    "uniqueness": "non-identified（模型级能力判定）",
    "class_note": "唯一非参数级形态——模型级缝隙"
   }
@@ -113,5 +113,9 @@
   "Karr2012 CSV（154）/ORd2011 JSON（262+12 电流级）/Wodke2013 JSON（306+9 侦察级）",
   "三模型uniqueness打标 JSON（E-Cell/BAAIWorm 模型级）"
  ],
- "用途": "书稿第二篇租约类型学的形态学基座；后续模型审计的形态归类词典"
+ "用途": "书稿第二篇租约类型学的形态学基座；后续模型审计的形态归类词典",
+ "depth_scan": {
+  "date": "2026-11-16",
+  "ref": "docs/形态库纵深批_判定_20261116.json"
+ }
 }
